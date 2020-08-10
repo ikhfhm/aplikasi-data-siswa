@@ -17,7 +17,7 @@
 						</button>
 					</div>
 					
-					<table class="table">
+					<table class="table table-hover">
 						<tr>
 							<th>NAMA DEPAN</th>
 							<th>NAMA BELAKANG</th>
