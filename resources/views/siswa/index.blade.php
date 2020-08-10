@@ -12,7 +12,7 @@
 						<h1>Data Siswa</h1>
 					</div>
 					<div class="col-6">
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+						<button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal">
 						  Tambah data siswa
 						</button>
 
