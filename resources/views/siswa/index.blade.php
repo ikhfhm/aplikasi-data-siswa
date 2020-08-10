@@ -8,7 +8,13 @@
 
 			<div class="container">
 				<div class="row">
-					<h1>Data Siswa</h1>
+					<div class="col-6">
+						<h1>Data Siswa</h1>
+					</div>
+					<div class="col-6">
+						
+					</div>
+					
 					<table class="table">
 						<tr>
 							<th>NAMA DEPAN</th>
