@@ -9,7 +9,7 @@
 			<div class="container">
 				<div class="row">
 					<h1>Data Siswa</h1>
-					<table>
+					<table class="table">
 						<tr>
 							<th>NAMA DEPAN</th>
 							<th>NAMA BELAKANG</th>
