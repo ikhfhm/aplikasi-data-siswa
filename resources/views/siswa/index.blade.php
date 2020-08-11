@@ -53,17 +53,17 @@
         	{{csrf_field()}}
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Nama Depan</label>
-		    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan">
+		    <input name="nama_depan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan">
 		  </div>
 
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Nama Belakang</label>
-		    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Belakang">
+		    <input name="nama_belakang" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Belakang">
 		  </div>
 
 		  <div class="form-group">
 		  	<label for="exampleFormControlSelect1">Pilih Jenis Kelamin</label>
-			<select class="form-control" id="exampleFormControlSelect1">
+			<select name="jenis_kelamin" class="form-control" id="exampleFormControlSelect1">
 			   <option value="L">Laki-laki</option>
 			   <option value="P">Perempuan</option>
 			</select>
@@ -71,12 +71,12 @@
 
 		  <div class="form-group">
 			<label for="exampleInputEmail1">Agama</label>
-		    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Agama">
+		    <input name="agama" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Agama">
 		  </div>
 
 		  <div class="form-group">
 		    <label for="exampleFormControlTextarea1">Alamat</label>
-		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 		  </div>
 
 		 
