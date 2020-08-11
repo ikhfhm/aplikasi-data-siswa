@@ -73,6 +73,10 @@
 		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Agama">
 		  </div>
 
+		  <div class="form-group">
+		    <label for="exampleFormControlTextarea1">Alamat</label>
+		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		  </div>
 
 		  <button type="submit" class="btn btn-primary">Submit</button>
 		</form>
