@@ -38,7 +38,7 @@
 							<td>{{$siswa->jenis_kelamin}}</td>
 							<td>{{$siswa->agama}}</td>
 							<td>{{$siswa->alamat}}</td>
-							<td><a href="#">Edit</td>
+							<td><a href="#" class="btn btn-warning btn-sm">Edit</td>
 						</tr>
 						@endforeach
 					</table>
