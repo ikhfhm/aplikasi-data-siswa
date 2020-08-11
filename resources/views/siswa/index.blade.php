@@ -7,6 +7,9 @@
 	<body>
 
 			<div class="container">
+				<div class="alert alert-success" role="alert">
+				  Data berhasil diinput
+				</div>
 				<div class="row">
 					<div class="col-6">
 						<h1>Data Siswa</h1>
