@@ -78,12 +78,12 @@
 		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 		  </div>
 
-		  <button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+		 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
   </div>
