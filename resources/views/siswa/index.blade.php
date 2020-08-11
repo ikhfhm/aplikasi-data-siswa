@@ -63,8 +63,8 @@
 		 	 <div class="form-group">
 			    <label for="exampleFormControlSelect1">Pilih Jenis Kelamin</label>
 			    <select class="form-control" id="exampleFormControlSelect1">
-			      <option>Laki-laki</option>
-			      <option>Perempuan</option>
+			      <option value="L">Laki-laki</option>
+			      <option value="P">Perempuan</option>
 			    </select>
 			  </div>
 		  <button type="submit" class="btn btn-primary">Submit</button>
