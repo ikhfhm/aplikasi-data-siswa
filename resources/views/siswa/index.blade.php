@@ -55,18 +55,25 @@
 		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan">
 		  </div>
 
-		   <div class="form-group">
+		  <div class="form-group">
 		    <label for="exampleInputEmail1">Nama Belakang</label>
 		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Belakang">
 		  </div>
 
-		 	 <div class="form-group">
-			    <label for="exampleFormControlSelect1">Pilih Jenis Kelamin</label>
-			    <select class="form-control" id="exampleFormControlSelect1">
-			      <option value="L">Laki-laki</option>
-			      <option value="P">Perempuan</option>
-			    </select>
-			  </div>
+		  <div class="form-group">
+		  	<label for="exampleFormControlSelect1">Pilih Jenis Kelamin</label>
+			<select class="form-control" id="exampleFormControlSelect1">
+			   <option value="L">Laki-laki</option>
+			   <option value="P">Perempuan</option>
+			</select>
+		  </div>
+
+		  <div class="form-group">
+			<label for="exampleInputEmail1">Agama</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Agama">
+		  </div>
+
+
 		  <button type="submit" class="btn btn-primary">Submit</button>
 		</form>
       </div>
