@@ -49,7 +49,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form action="/siswa/create" method="post">
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Nama Depan</label>
 		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan">
