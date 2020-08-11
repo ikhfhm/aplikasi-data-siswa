@@ -52,7 +52,7 @@
         <form>
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Nama Depan</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan">
 		  </div>
 		 
 		  <button type="submit" class="btn btn-primary">Submit</button>
