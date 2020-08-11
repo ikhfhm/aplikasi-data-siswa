@@ -17,4 +17,6 @@ class SiswaController extends Controller
     	\App\Siswa::create($request->all());
     	return redirect('/siswa')->with('sukses', 'Data behasil diinput');
     }
+
+    
 }
