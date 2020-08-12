@@ -15,7 +15,7 @@
 				@endif
 				<div class="row">
 					<div class="col-lg-12">
-					<form action="/siswa/create" method="post">
+					<form action="/siswa/{id}/update" method="post">
 			        	{{csrf_field()}}
 					  <div class="form-group">
 					    <label for="exampleInputEmail1">Nama Depan</label>
