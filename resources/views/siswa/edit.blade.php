@@ -14,6 +14,7 @@
 				</div>
 				@endif
 				<div class="row">
+					<div class="col-lg-12">
 					<form action="/siswa/create" method="post">
 			        	{{csrf_field()}}
 					  <div class="form-group">
@@ -44,7 +45,8 @@
 					    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 					  </div>
 					  <button type="submit" class="btn btn-primary">Submit</button>
-       				 </form>
+       				</form>
+       				</div>
 				</div>
 			</div>
 															
