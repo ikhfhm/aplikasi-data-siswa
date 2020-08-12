@@ -44,7 +44,7 @@
 					    <label for="exampleFormControlTextarea1">Alamat</label>
 					    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3">{{$siswa->alamat}}</textarea>
 					  </div>
-					  <button type="submit" class="btn btn-primary">Submit</button>
+					  <button type="submit" class="btn btn-warning">Update</button>
        				</form>
        				</div>
 				</div>
