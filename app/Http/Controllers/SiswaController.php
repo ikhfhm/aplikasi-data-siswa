@@ -23,4 +23,11 @@ class SiswaController extends Controller
         $siswa = \App\Siswa::find($id);
         return view('siswa/edit',['siswa' => $siswa]);
     }
+
+    public function update(Request $value,$id)
+    {
+        $siswa = \App\Siswa::find($id);
+        $siswa->update($request->all());
+        return redirect('/siswa')->with('sukses', 'Data berhasil diupdate');
+    }
 }
