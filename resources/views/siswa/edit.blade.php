@@ -7,6 +7,7 @@
 	<body>
 
 			<div class="container">
+				<h1>Edit data siswa</h1>
 				@if(session('sukses'))
 				<div class="alert alert-success" role="alert">
 				  {{session('sukses')}}
