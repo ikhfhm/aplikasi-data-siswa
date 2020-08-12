@@ -21,6 +21,6 @@ class SiswaController extends Controller
     public function edit($id)
     {
         $siswa = \App\Siswa::find($id);
-        dd($siswa);
+        
     }
 }
