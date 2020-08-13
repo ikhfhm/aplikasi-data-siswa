@@ -32,7 +32,10 @@
 							<td>{{$siswa->jenis_kelamin}}</td>
 							<td>{{$siswa->agama}}</td>
 							<td>{{$siswa->alamat}}</td>
-							<td><a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning btn-sm">Edit</td>
+							<td>
+								<a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
+								<a href="/siswa/{{$siswa->id}}/delete" class="btn btn-danger btn-sm">Delete</a>
+							</td>
 						</tr>
 						@endforeach
 					</table>
