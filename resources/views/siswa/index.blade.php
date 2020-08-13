@@ -1,3 +1,5 @@
+@extends('layouts.master')
+
 
 				@if(session('sukses'))
 				<div class="alert alert-success" role="alert">
@@ -86,7 +88,6 @@
         </form>
       </div>
     </div>
-  </div>
-														
+  </div>														
 
 
