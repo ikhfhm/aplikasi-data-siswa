@@ -14,31 +14,28 @@
 									<table class="table table-hover">
 										<thead>
 											<tr>
-												<th>#</th>
-												<th>First Name</th>
-												<th>Last Name</th>
-												<th>Username</th>
+												<th>NAMA DEPAN</th>
+												<th>NAMA BELAKANG</th>
+												<th>JENIS KELAMIN</th>
+												<th>AGAMA</th>
+												<th>ALAMAT</th>
+												<th>AKSI</th>
 											</tr>
 										</thead>
 										<tbody>
+											@foreach($data_siswa as $siswa)
 											<tr>
-												<td>1</td>
-												<td>Steve</td>
-												<td>Jobs</td>
-												<td>@steve</td>
+												<td>{{$siswa->nama_depan}}</td>
+												<td>{{$siswa->nama_belakang}}</td>
+												<td>{{$siswa->jenis_kelamin}}</td>
+												<td>{{$siswa->agama}}</td>
+												<td>{{$siswa->alamat}}</td>
+												<td>
+													<a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
+													<a href="/siswa/{{$siswa->id}}/delete" class="btn btn-danger btn-sm" onclick="return confirm('Yakin mau dihapus?')">Delete</a>
+												</td>
 											</tr>
-											<tr>
-												<td>2</td>
-												<td>Simon</td>
-												<td>Philips</td>
-												<td>@simon</td>
-											</tr>
-											<tr>
-												<td>3</td>
-												<td>Jane</td>
-												<td>Doe</td>
-												<td>@jane</td>
-											</tr>
+											@endforeach
 										</tbody>
 									</table>
 								</div>
