@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('content')
+
+@stop
+@section('content1')
 				@if(session('sukses'))
 				<div class="alert alert-success" role="alert">
 				  {{session('sukses')}}
