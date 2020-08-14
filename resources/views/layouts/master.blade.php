@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Dashboard | Klorofil - Free Bootstrap Dashboard Template</title>
+  <title>Data Siswa Kingsarmy</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -28,20 +28,10 @@
     @include('layouts.includes._navbar')
     <!-- END NAVBAR -->
     <!-- LEFT SIDEBAR -->
-    <div id="sidebar-nav" class="sidebar">
-      <div class="sidebar-scroll">
-        <nav>
-          <ul class="nav">
-            <li><a href="index.html" class="active"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
-            <li><a href="/siswa" class=""><i class="lnr lnr-user"></i> <span>Siswa</span></a></li>
-            
-          </ul>
-        </nav>
-      </div>
-    </div>
+    @include('layouts.includes._sidebar')
     <!-- END LEFT SIDEBAR -->
     <!-- MAIN -->
-  @yield('content')
+    @yield('content')
     <!-- END MAIN -->
     <div class="clearfix"></div>
     <footer>
