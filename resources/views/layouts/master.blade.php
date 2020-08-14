@@ -114,7 +114,7 @@
     </div>
     <!-- END LEFT SIDEBAR -->
     <!-- MAIN -->
-  
+  @yield('content')
     <!-- END MAIN -->
     <div class="clearfix"></div>
     <footer>
