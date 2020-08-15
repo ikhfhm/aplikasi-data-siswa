@@ -9,9 +9,12 @@
 						<div class="panel">
 								<div class="panel-heading">
 									<h3 class="panel-title">Data Siswa</h3>
-									<button type="button" class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#exampleModal">
-									  Tambah data siswa
-									</button>
+									<div class="right">
+										<button type="button" class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#exampleModal">
+									 	Tambah data siswa
+										</button>
+									
+									</div>
 								</div>
 								<div class="panel-body">
 									<table class="table table-hover">
