@@ -13,7 +13,7 @@
 										<button type="button" class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#exampleModal">
 									 	Tambah data siswa
 										</button>
-										<button type="button" class="btn-remove" data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-cross"></i></button>
+										<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-cross"></i></button>
 									
 									</div>
 								</div>
