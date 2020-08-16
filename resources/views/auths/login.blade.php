@@ -33,14 +33,14 @@
 								<div class="logo text-center"><img src="{{asset('admin/logo-kingsarmy.png')}}" alt="Klorofil Logo"></div>
 								<p class="lead">Login</p>
 							</div>
-							<form class="form-auth-small" action="index.php">
+							<form class="form-auth-small" action="postlogin" method="POST">
 								<div class="form-group">
 									<label for="signin-email" class="control-label sr-only">Email</label>
-									<input type="email" class="form-control" id="signin-email" value="samuel.gold@domain.com" placeholder="Email">
+									<input name="email" type="email" class="form-control" id="signin-email" value="samuel.gold@domain.com" placeholder="Email">
 								</div>
 								<div class="form-group">
 									<label for="signin-password" class="control-label sr-only">Password</label>
-									<input type="password" class="form-control" id="signin-password" value="thisisthepassword" placeholder="Password">
+									<input name="password" type="password" class="form-control" id="signin-password" value="thisisthepassword" placeholder="Password">
 								</div>
 								<div class="form-group clearfix">
 									
@@ -54,7 +54,7 @@
 						<div class="overlay"></div>
 						<div class="content text">
 							<h1 class="heading">Aplikasi Pengelolaan Data Siswa</h1>
-							<p>by Ikhwan Fahmi | Kingsarmy</p>
+							<p>by Ikhwan Fahmi</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
