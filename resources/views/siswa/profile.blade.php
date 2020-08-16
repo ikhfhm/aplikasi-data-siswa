@@ -35,7 +35,7 @@
 								<!-- PROFILE DETAIL -->
 								<div class="profile-detail">
 									<div class="profile-info">
-										<h4 class="heading">Basic Info</h4>
+										<h4 class="heading">Data Diri</h4>
 										<ul class="list-unstyled list-justify">
 											<li>Jenis Kelamin <span>{{$siswa->jenis_kelamin}}</span></li>
 											<li>Agama <span>{{$siswa->agama}}</span></li>
