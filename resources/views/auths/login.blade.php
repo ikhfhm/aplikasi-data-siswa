@@ -34,6 +34,7 @@
 								<p class="lead">Login</p>
 							</div>
 							<form class="form-auth-small" action="postlogin" method="POST">
+								{{csrf_field()}}
 								<div class="form-group">
 									<label for="signin-email" class="control-label sr-only">Email</label>
 									<input name="email" type="email" class="form-control" id="signin-email" value="samuel.gold@domain.com" placeholder="Email">
