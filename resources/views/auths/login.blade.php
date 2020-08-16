@@ -53,8 +53,8 @@
 					<div class="right">
 						<div class="overlay"></div>
 						<div class="content text">
-							<h1 class="heading">Free Bootstrap dashboard template</h1>
-							<p>by The Develovers</p>
+							<h1 class="heading">Aplikasi Pengelolaan Data Siswa</h1>
+							<p>by Ikhwan Fahmi | Kingsarmy</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
