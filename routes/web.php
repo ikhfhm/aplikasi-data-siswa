@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::get('/login', 'AuthController@login');
 Route::post('/postlogin', 'AuthController@postlogin');
+Route::get('/logout', 'AuthController@logout');
 
 Route::get('/dashboard', 'DashboardController@index');
 Route::get('/siswa', 'SiswaController@index');
