@@ -45,6 +45,6 @@ class SiswaController extends Controller
     public function profile($id)
     {
         $siswa = \App\Siswa::find($id);
-        return view('siswa.profile',['siswa => $siswa']);
+        return view('siswa.profile',['siswa' => $siswa]);
     }
 }
