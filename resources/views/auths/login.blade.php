@@ -43,10 +43,7 @@
 									<input type="password" class="form-control" id="signin-password" value="thisisthepassword" placeholder="Password">
 								</div>
 								<div class="form-group clearfix">
-									<label class="fancy-checkbox element-left">
-										<input type="checkbox">
-										<span>Remember me</span>
-									</label>
+									
 								</div>
 								<button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
 								<div class="bottom">
