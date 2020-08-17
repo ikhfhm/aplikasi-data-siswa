@@ -40,6 +40,12 @@
 					    <label for="exampleFormControlTextarea1">Alamat</label>
 					    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3">{{$siswa->alamat}}</textarea>
 					  </div>
+
+					  <div class="form-group">
+					    <label for="exampleFormControlTextarea1">Avatar</label>
+					    <input type="file" name="avatar" class="form-control">
+					    
+					  </div>
 					  <button type="submit" class="btn btn-warning">Update</button>
        				</form>
 								</div>
