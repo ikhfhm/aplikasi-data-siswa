@@ -18,8 +18,15 @@ class SiswaController extends Controller
 
     public function create(Request $request)
     {
-    	\App\Siswa::create($request->all());
-    	return redirect('/siswa')->with('sukses', 'Data behasil diinput');
+    	$siswa = \App\Siswa::create($request->all());
+    	$user = new \App\User;
+        $user->role = 'siswa';
+        $user->name = $siswa->nama_depan;
+        $user->email = $request->email;
+        $user->password = 'rahasia';
+        $user->remember_token = Str::random(40);
+        $user->save();
+        return redirect('/siswa')->with('sukses', 'Data behasil diinput');
     }
 
     public function edit($id)
