@@ -25,6 +25,7 @@ class SiswaController extends Controller
             'email' => 'required|email|unique:users',
             'jenis_kelamin' => 'required',
             'agama' => 'required',
+            'avatar' => 'mines:jpg,png'
         ]);
         //Insert ke table Users
     	$user = new \App\User;
