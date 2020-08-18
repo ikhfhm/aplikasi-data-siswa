@@ -71,12 +71,12 @@
 
 		  <div class="form-group">
 		    <label for="exampleInputEmail1">Nama Belakang</label>
-		    <input name="nama_belakang" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Belakang">
+		    <input name="nama_belakang" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Belakang" value="{{old('nama_belakang')}}">
 		  </div>
 
 		  <div class="form-group{{$errors->has('email') ? ' has-error' : ''}}">
 		    <label for="exampleInputEmail1">Email</label>
-		    <input name="email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+		    <input name="email" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" value="{{old('email')}}">
 		    @if($errors->has('email'))
 		    	<span class="help-block">{{$errors->first('email')}}</span>
 		    @endif
@@ -85,8 +85,8 @@
 		  <div class="form-group{{$errors->has('jenis_kelamin') ? ' has-error' : ''}}">
 		  	<label for="exampleFormControlSelect1">Pilih Jenis Kelamin</label>
 			<select name="jenis_kelamin" class="form-control" id="exampleFormControlSelect1">
-			   <option value="L">Laki-laki</option>
-			   <option value="P">Perempuan</option>
+			   <option value="L"{{(old('jenis_kelamin') == 'L') ? ' selected' : ''}}>Laki-laki</option>
+			   <option value="P"{{(old('jenis_kelamin') == 'P') ? ' selected' : ''}}>Perempuan</option>
 			</select>
 			@if($errors->has('jenis_kelamin'))
 		    	<span class="help-block">{{$errors->first('jenis_kelamin')}}</span>
@@ -95,7 +95,7 @@
 
 		  <div class="form-group{{$errors->has('agama') ? ' has-error' : ''}}">
 			<label for="exampleInputEmail1">Agama</label>
-		    <input name="agama" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Agama">
+		    <input name="agama" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Agama"  value="{{old('agama')}}">
 		  	@if($errors->has('agama'))
 		    	<span class="help-block">{{$errors->first('agama')}}</span>
 		    @endif
@@ -103,7 +103,7 @@
 
 		  <div class="form-group">
 		    <label for="exampleFormControlTextarea1">Alamat</label>
-		    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('alamat')}}</textarea>
 		  </div>
 
 		 
