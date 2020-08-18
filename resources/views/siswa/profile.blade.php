@@ -67,10 +67,10 @@
 										<tbody>
 											@foreach($siswa->mapel as $mapel)
 											<tr>
-												<td>1</td>
-												<td>Steve</td>
-												<td>Jobs</td>
-												<td>@steve</td>
+												<td>{{$mapel->kode}}</td>
+												<td>{{$mapel->nama}}</td>
+												<td>{{$mapel->semester}}</td>
+												<td>80</td>
 											</tr>
 											@endforeach
 										</tbody>
