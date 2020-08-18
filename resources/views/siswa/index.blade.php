@@ -62,7 +62,7 @@
       <div class="modal-body">
         <form action="/siswa/create" method="post">
         	{{csrf_field()}}
-		  <div class="form-group has-error">
+		  <div class="form-group">
 		    <label for="exampleInputEmail1">Nama Depan</label>
 		    <input name="nama_depan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan">
 		  </div>
