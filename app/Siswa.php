@@ -20,6 +20,6 @@ class Siswa extends Model
 
     public function mapel()
     {
-    	return $this->belongToMany(Mapel::class);
+    	return $this->belongsToMany(Mapel::class);
     }
 }
