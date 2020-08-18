@@ -106,11 +106,13 @@
 		    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('alamat')}}</textarea>
 		  </div>
 
-			<div class="form-group">
-				<label for="exampleFormControlTextarea1">Avatar</label>
-				<input type="file" name="avatar" class="form-control">
-
-			</div>
+		  <div class="form-group{{$errors->has('avatar') ? ' has-error' : ''}}">
+			<label for="exampleFormControlTextarea1">Avatar</label>
+			<input type="file" name="avatar" class="form-control">
+			@if($errors->has('avatar'))
+		    <span class="help-block">{{$errors->first('avatar')}}</span>
+		    @endif
+		  </div>
 
       </div>
       <div class="modal-footer">
