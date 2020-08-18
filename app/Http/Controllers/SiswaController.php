@@ -21,7 +21,7 @@ class SiswaController extends Controller
     {
         $this->validate($request,[
             'nama_depan' => 'required|min:5',
-            'email' => 'required|email|unique:siswa',
+            'email' => 'required|email|unique:users',
             'jenis_kelamin' => 'required',
             'agama' => 'required',
         ]);
