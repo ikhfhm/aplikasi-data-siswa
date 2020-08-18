@@ -21,7 +21,7 @@ class SiswaController extends Controller
     {
         $this->validate($request,[
             'nama_depan' => 'min:5'
-        ])
+        ]);
         //Insert ke table Users
     	$user = new \App\User;
         $user->role = 'siswa';
