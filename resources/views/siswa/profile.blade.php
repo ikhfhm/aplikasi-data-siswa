@@ -70,7 +70,7 @@
 												<td>{{$mapel->kode}}</td>
 												<td>{{$mapel->nama}}</td>
 												<td>{{$mapel->semester}}</td>
-												<td>80</td>
+												<td>{{$mapel->pivot->nilai}}</td>
 											</tr>
 											@endforeach
 										</tbody>
