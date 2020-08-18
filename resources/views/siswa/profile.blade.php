@@ -52,37 +52,27 @@
 							<div class="profile-right">
 							<div class="panel">
 								<div class="panel-heading">
-									<h3 class="panel-title">Striped Row</h3>
+									<h3 class="panel-title">Mata Pelajaran</h3>
 								</div>
 								<div class="panel-body">
 									<table class="table table-striped">
 										<thead>
 											<tr>
-												<th>#</th>
-												<th>First Name</th>
-												<th>Last Name</th>
-												<th>Username</th>
+												<th>KODE</th>
+												<th>NAMA</th>
+												<th>SEMESTER</th>
+												<th>NILAI</th>
 											</tr>
 										</thead>
 										<tbody>
+											@foreach($siswa->mapel as $mapel)
 											<tr>
 												<td>1</td>
 												<td>Steve</td>
 												<td>Jobs</td>
 												<td>@steve</td>
 											</tr>
-											<tr>
-												<td>2</td>
-												<td>Simon</td>
-												<td>Philips</td>
-												<td>@simon</td>
-											</tr>
-											<tr>
-												<td>3</td>
-												<td>Jane</td>
-												<td>Doe</td>
-												<td>@jane</td>
-											</tr>
+											@endforeach
 										</tbody>
 									</table>
 								</div>
