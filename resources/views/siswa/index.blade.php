@@ -106,7 +106,12 @@
 		    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('alamat')}}</textarea>
 		  </div>
 
-		 
+			<div class="form-group">
+				<label for="exampleFormControlTextarea1">Avatar</label>
+				<input type="file" name="avatar" class="form-control">
+
+			</div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
