@@ -20,7 +20,10 @@ class SiswaController extends Controller
     public function create(Request $request)
     {
         $this->validate($request,[
-            'nama_depan' => 'min:5'
+            'nama_depan' => 'required|min:5',
+            'email' => 'required|email|unique:siswa',
+            'jenis_kelamin' => 'required',
+            'agama' => 'required',
         ]);
         //Insert ke table Users
     	$user = new \App\User;

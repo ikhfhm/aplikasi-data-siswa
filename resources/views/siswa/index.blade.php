@@ -11,7 +11,6 @@
 									<h3 class="panel-title">Data Siswa</h3>
 									<div class="right">
 										<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-plus-circle"></i></button>
-									
 									</div>
 								</div>
 								<div class="panel-body">
@@ -65,6 +64,9 @@
 		  <div class="form-group{{$errors->has('nama_depan') ? ' has-error' : ''}}">
 		    <label for="exampleInputEmail1">Nama Depan</label>
 		    <input name="nama_depan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan">
+		    @if($errors->has('nama_depan'))
+		    	<span class="help-block">{{$errors->first('nama_depan')}}</span>
+		    @endif
 		  </div>
 
 		  <div class="form-group">
