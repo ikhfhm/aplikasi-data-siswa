@@ -20,7 +20,7 @@
 									<div class="profile-stat">
 										<div class="row">
 											<div class="col-md-4 stat-item">
-												45 <span>Projects</span>
+												{{$siswa->mapel->count()}} <span>Mata Pelajaran</span>
 											</div>
 											<div class="col-md-4 stat-item">
 												15 <span>Awards</span>
