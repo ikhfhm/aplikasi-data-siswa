@@ -106,7 +106,7 @@
 					    <label for="mapel">Mata Pelajaran</label>
 					    <select class="form-control" id="mapel">
 					    	@foreach($matapelajaran as $mp)
-					    		<option value="{{$mp->id}}">{{$mapel->nama}}</option>
+					    		<option value="{{$mp->id}}">{{$mp->nama}}</option>
 					    	@endforeach
 					    </select>
 					</div>
