@@ -19,14 +19,14 @@ class SiswaController extends Controller
 
     public function create(Request $request)
     {
-        dd($request->all());
+       // dd($request->all());
         $this->validate($request,[
             'nama_depan' => 'required|min:5',
             'nama_belakang' => 'required',
             'email' => 'required|email|unique:users',
             'jenis_kelamin' => 'required',
             'agama' => 'required',
-            'avatar' => 'mimes:jpg,png'
+            'avatar' => 'mimes:jpeg,png'
         ]);
         //Insert ke table Users
     	$user = new \App\User;
