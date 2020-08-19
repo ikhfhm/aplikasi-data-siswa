@@ -81,4 +81,12 @@ class SiswaController extends Controller
        // dd($mapel);
         return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran]);
     }
+
+    public function addnilai(Request $request,$idsiswa)
+    {
+        $siswa = \App\Siswa::find($idsiswa);
+        $siswa->mapel()->attach($request->mapel,['nilai' => $request->nilai]);
+
+        return redirect('siswa/'.$idsiswa.'/profile')->with('sukses', 'Data nilai berhasil dimasukkan');
+    }
 }

@@ -104,7 +104,7 @@
 		        	{{csrf_field()}}
 		        	<div class="form-group">
 					    <label for="mapel">Mata Pelajaran</label>
-					    <select class="form-control" id="mapel">
+					    <select class="form-control" id="mapel" name="mapel">
 					    	@foreach($matapelajaran as $mp)
 					    		<option value="{{$mp->id}}">{{$mp->nama}}</option>
 					    	@endforeach
