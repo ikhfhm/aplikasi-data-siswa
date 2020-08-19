@@ -117,10 +117,10 @@
 				    	<span class="help-block">{{$errors->first('nilai')}}</span>
 				    @endif
 				  </div>
-				</form>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-primary">Save changes</button>
+		        <button type="submit" class="btn btn-primary">Simpan</button>
+				</form>
 		      </div>
 		    </div>
 		  </div>
