@@ -102,6 +102,16 @@
 		      <div class="modal-body">
 		      <form action="/siswa/{{$siswa->id}}/addnilai" method="post" enctype="multipart/form-data">
 		        	{{csrf_field()}}
+		        	<div class="form-group">
+					    <label for="exampleFormControlSelect1">Example select</label>
+					    <select class="form-control" id="exampleFormControlSelect1">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					</div>
 				  <div class="form-group{{$errors->has('nilai') ? ' has-error' : ''}}">
 				    <label for="exampleInputEmail1">Nilai</label>
 				    <input name="nilai" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nilai" value="{{old('nilai')}}">
