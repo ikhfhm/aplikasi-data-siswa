@@ -100,7 +100,16 @@
 		        </button>
 		      </div>
 		      <div class="modal-body">
-		        ...
+		      <form action="/siswa/create" method="post" enctype="multipart/form-data">
+		        	{{csrf_field()}}
+				  <div class="form-group{{$errors->has('nama_depan') ? ' has-error' : ''}}">
+				    <label for="exampleInputEmail1">Nama Depan</label>
+				    <input name="nama_depan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan" value="{{old('nama_depan')}}">
+				    @if($errors->has('nama_depan'))
+				    	<span class="help-block">{{$errors->first('nama_depan')}}</span>
+				    @endif
+				  </div>
+				</form>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
