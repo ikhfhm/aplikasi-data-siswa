@@ -102,11 +102,11 @@
 		      <div class="modal-body">
 		      <form action="/siswa/{{$siswa->id}}/addnilai" method="post" enctype="multipart/form-data">
 		        	{{csrf_field()}}
-				  <div class="form-group{{$errors->has('nama_depan') ? ' has-error' : ''}}">
-				    <label for="exampleInputEmail1">Nama Depan</label>
-				    <input name="nama_depan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan" value="{{old('nama_depan')}}">
-				    @if($errors->has('nama_depan'))
-				    	<span class="help-block">{{$errors->first('nama_depan')}}</span>
+				  <div class="form-group{{$errors->has('nilai') ? ' has-error' : ''}}">
+				    <label for="exampleInputEmail1">Nilai</label>
+				    <input name="nilai" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nilai" value="{{old('nilai')}}">
+				    @if($errors->has('nilai'))
+				    	<span class="help-block">{{$errors->first('nilai')}}</span>
 				    @endif
 				  </div>
 				</form>
