@@ -103,8 +103,8 @@
 		      <form action="/siswa/{{$siswa->id}}/addnilai" method="post" enctype="multipart/form-data">
 		        	{{csrf_field()}}
 		        	<div class="form-group">
-					    <label for="exampleFormControlSelect1">Example select</label>
-					    <select class="form-control" id="exampleFormControlSelect1">
+					    <label for="mapel">Mata Pelajaran</label>
+					    <select class="form-control" id="mapel">
 					      <option>1</option>
 					      <option>2</option>
 					      <option>3</option>
