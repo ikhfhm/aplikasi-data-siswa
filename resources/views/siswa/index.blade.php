@@ -59,7 +59,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/siswa/create" method="post">
+        <form action="/siswa/create" method="post" enctype="multipart/form-data">
         	{{csrf_field()}}
 		  <div class="form-group{{$errors->has('nama_depan') ? ' has-error' : ''}}">
 		    <label for="exampleInputEmail1">Nama Depan</label>

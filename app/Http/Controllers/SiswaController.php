@@ -19,6 +19,7 @@ class SiswaController extends Controller
 
     public function create(Request $request)
     {
+        dd($request->all());
         $this->validate($request,[
             'nama_depan' => 'required|min:5',
             'nama_belakang' => 'required',
