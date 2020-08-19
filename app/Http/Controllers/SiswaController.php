@@ -77,7 +77,8 @@ class SiswaController extends Controller
     public function profile($id)
     {
         $siswa = \App\Siswa::find($id);
-        $mapel = \App\Mapel::all();
-        return view('siswa.profile',['siswa' => $siswa,'mapel' => $mapel]);
+        $matapelajaran = \App\Mapel::all();
+       // dd($mapel);
+        return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran]);
     }
 }

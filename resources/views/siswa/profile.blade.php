@@ -105,11 +105,9 @@
 		        	<div class="form-group">
 					    <label for="mapel">Mata Pelajaran</label>
 					    <select class="form-control" id="mapel">
-					      <option>1</option>
-					      <option>2</option>
-					      <option>3</option>
-					      <option>4</option>
-					      <option>5</option>
+					    	@foreach($matapelajaran as $mp)
+					    		<option value="{{$mp->id}}">{{$mapel->nama}}</option>
+					    	@endforeach
 					    </select>
 					</div>
 				  <div class="form-group{{$errors->has('nilai') ? ' has-error' : ''}}">
