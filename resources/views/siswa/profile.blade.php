@@ -50,6 +50,7 @@
 							<!-- END LEFT COLUMN -->
 							<!-- RIGHT COLUMN -->
 							<div class="profile-right">
+								<button type="button" class="btn btn-primary">Primary</button>
 							<div class="panel">
 								<div class="panel-heading">
 									<h3 class="panel-title">Mata Pelajaran</h3>
