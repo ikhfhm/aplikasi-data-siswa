@@ -84,8 +84,12 @@ class SiswaController extends Controller
         $data = [];
 
         foreach($matapelajaran as $mp){
-            $categories[] = $mp->nama;
-            $data[] = $siswa->mapel()->wherePivot('mapel_id',$mp->id)->first()->pivot->nilai;
+            if($siswa->mapel()->wherePivot('mapel_id',$mp->id)->first()){
+                $categories[] = $mp->nama;
+                $data[] = $siswa->mapel()->wherePivot('mapel_id',$mp->id)->first()->pivot->nilai;
+
+            }
+            
         }
 
         //dd($data);
