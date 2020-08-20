@@ -152,10 +152,7 @@
 	        text: 'Laporan Nilai Siswa'
 	    },
 	    xAxis: {
-	        categories: [
-	            'Matematika Dasar',
-	            'Bahasa Indonesia'
-	        ],
+	        categories: {{$categories}},
 	        crosshair: true
 	    },
 	    yAxis: {
