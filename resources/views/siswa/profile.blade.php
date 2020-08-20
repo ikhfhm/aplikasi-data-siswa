@@ -79,6 +79,7 @@
 													<th>NAMA</th>
 													<th>SEMESTER</th>
 													<th>NILAI</th>
+													<th>AKSI</th>
 												</tr>
 											</thead>
 											<tbody>
