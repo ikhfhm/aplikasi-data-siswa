@@ -171,7 +171,7 @@
 	    yAxis: {
 	        min: 0,
 	        title: {
-	            text: 'Rainfall (mm)'
+	            text: 'Nilai'
 	        }
 	    },
 	    tooltip: {
