@@ -50,18 +50,14 @@
 											<thead>
 												<tr>
 													<th>KODE</th>
-													<th>NAMA</th>
 													<th>SEMESTER</th>
-													<th>NILAI</th>
-													<th>GURU</th>
-													<th>AKSI</th>
 												</tr>
 											</thead>
 											<tbody>
 												@foreach($guru->mapel as $mapel)
 												<tr>
-													<td></td>
-													<td></td>
+													<td>{{$mapel->nama}}</td>
+													<td>{{$mapel->semester}}</td>
 													<td></td>
 													<td></td>
 													<td></td>
