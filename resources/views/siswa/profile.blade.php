@@ -152,7 +152,7 @@
 	        text: 'Laporan Nilai Siswa'
 	    },
 	    xAxis: {
-	        categories: {{json_encode($categories)}},
+	        categories: {!!json_encode($categories)!!},
 	        crosshair: true
 	    },
 	    yAxis: {
@@ -177,7 +177,7 @@
 	    },
 	    series: [{
 	        name: 'Nilai',
-	        data: [49.9, 71.5]
+	        data: [49.9, 71.5, 80]
 
 	    }]
 	});
