@@ -87,7 +87,7 @@
 													<td>{{$mapel->kode}}</td>
 													<td>{{$mapel->nama}}</td>
 													<td>{{$mapel->semester}}</td>
-													<td><a href="#" id="username" data-type="text" data-pk="{{$mapel->id}}" data-url="/post" data-title="Enter username">{{$mapel->pivot->nilai}}</a></td>
+													<td><a href="#" id="username" data-type="text" data-pk="{{$mapel->id}}" data-url="/post" data-title="Masukkan Nilai">{{$mapel->pivot->nilai}}</a></td>
 												</tr>
 												@endforeach
 											</tbody>
