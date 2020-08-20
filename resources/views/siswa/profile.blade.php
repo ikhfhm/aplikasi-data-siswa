@@ -90,7 +90,7 @@
 													<td>{{$mapel->nama}}</td>
 													<td>{{$mapel->semester}}</td>
 													<td><a href="#" class="nilai" data-type="text" data-pk="{{$mapel->id}}" data-url="/api/siswa/{{$siswa->id}}/editnilai" data-title="Masukkan Nilai">{{$mapel->pivot->nilai}}</a></td>
-													<td>{{$mapel->guru->nama}}</td>
+													<td><a href="#">{{$mapel->guru->nama}}</a></td>
 													<td><a href="/siswa/{{$siswa->id}}/{{$mapel->id}}/deletenilai" class="btn btn-danger btn-sm" onclick="return confirm('Yakin mau dihapus?')">Delete</a></td>
 												</tr>
 												@endforeach
