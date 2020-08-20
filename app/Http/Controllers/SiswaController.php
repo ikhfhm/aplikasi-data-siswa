@@ -81,9 +81,11 @@ class SiswaController extends Controller
 
        // Menyiapkan data untuk chart
         $categories = [];
+        $data = [];
 
         foreach($matapelajaran as $mp){
             $categories[] = $mp->nama;
+            $data[] = $siswa->mapel;
         }
 
         //dd(json_encode($categories));
