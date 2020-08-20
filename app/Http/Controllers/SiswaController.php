@@ -88,9 +88,10 @@ class SiswaController extends Controller
             $data[] = $siswa->mapel()->wherePivot('mapel_id',$mp->id)->first()->pivot->nilai;
         }
 
+        //dd($data);
         //dd(json_encode($categories));
 
-        return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran,'categories' => $categories]);
+        return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran,'categories' => $categories,'data' => $data]);
     }
 
     public function addnilai(Request $request,$idsiswa)
