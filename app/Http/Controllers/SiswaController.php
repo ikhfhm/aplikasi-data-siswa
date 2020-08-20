@@ -78,7 +78,14 @@ class SiswaController extends Controller
     {
         $siswa = \App\Siswa::find($id);
         $matapelajaran = \App\Mapel::all();
-       // dd($mapel);
+
+       // Menyiapkan data untuk chart
+        $categories = [];
+
+        foreach($matapelajaran as $mp){
+            $categories[] = $mp->nama;
+        }
+
         return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran]);
     }
 
