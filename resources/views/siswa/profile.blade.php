@@ -137,3 +137,7 @@
 		  </div>
 		</div>
 @stop
+
+@section('footer')
+<script src="https://code.highcharts.com/highcharts.js"></script>
+@stop
