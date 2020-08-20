@@ -185,7 +185,7 @@
 	});
 
 	$(document).ready(function() {
-	    $('#username').editable();
+	    $('.nilai').editable();
 	});
 </script>
 @stop
