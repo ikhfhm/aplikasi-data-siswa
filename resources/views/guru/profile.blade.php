@@ -31,33 +31,9 @@
 										<h3 class="name">{{$guru->nama}}</h3>
 										<span class="online-status status-available">Available</span>
 									</div>
-									<div class="profile-stat">
-										<div class="row">
-											<div class="col-md-4 stat-item">
-												{{$siswa->mapel->count()}} <span>Mata Pelajaran</span>
-											</div>
-											<div class="col-md-4 stat-item">
-												15 <span>Awards</span>
-											</div>
-											<div class="col-md-4 stat-item">
-												2174 <span>Points</span>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- END PROFILE HEADER -->
-								<!-- PROFILE DETAIL -->
-								<div class="profile-detail">
-									<div class="profile-info">
-										<h4 class="heading">Data Diri</h4>
-										<ul class="list-unstyled list-justify">
-											<li>Jenis Kelamin <span>{{$siswa->jenis_kelamin}}</span></li>
-											<li>Agama <span>{{$siswa->agama}}</span></li>
-											<li>Alamat <span>{{$siswa->alamat}}</span></li>
-										</ul>
-									</div>
 									
-									<div class="text-center"><a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning">Edit Profile</a></div>
+								</div>
+								
 								</div>
 								<!-- END PROFILE DETAIL -->
 							</div>
