@@ -145,6 +145,7 @@
 @stop
 
 @section('footer')
+<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script>
 		Highcharts.chart('chartNilai', {
