@@ -85,7 +85,7 @@ class SiswaController extends Controller
 
         foreach($matapelajaran as $mp){
             $categories[] = $mp->nama;
-            $data[] = $siswa->mapel;
+            $data[] = $siswa->mapel()->wherePivot('mapel_id',$mp->id)->first()->pivot->nilai;
         }
 
         //dd(json_encode($categories));
