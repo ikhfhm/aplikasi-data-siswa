@@ -33,16 +33,14 @@
 									</div>
 									
 								</div>
-								
+
 								</div>
 								<!-- END PROFILE DETAIL -->
 							</div>
 							<!-- END LEFT COLUMN -->
 							<!-- RIGHT COLUMN -->
 							<div class="profile-right">
-								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-								  Tambah Nilai
-								</button>
+								
 								<div class="panel">
 									<div class="panel-heading">
 										<h3 class="panel-title">Mata Pelajaran</h3>
