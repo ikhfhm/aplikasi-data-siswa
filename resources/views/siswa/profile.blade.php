@@ -152,7 +152,7 @@
 	        text: 'Laporan Nilai Siswa'
 	    },
 	    xAxis: {
-	        categories: {{$categories}},
+	        categories: {{json_encode($categories)}},
 	        crosshair: true
 	    },
 	    yAxis: {
