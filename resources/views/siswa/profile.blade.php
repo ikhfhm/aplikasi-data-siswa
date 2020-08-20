@@ -179,7 +179,7 @@
 	        }
 	    },
 	    series: [{
-	        name: 'Tokyo',
+	        name: 'Nilai',
 	        data: [49.9, 71.5]
 
 	    }]
