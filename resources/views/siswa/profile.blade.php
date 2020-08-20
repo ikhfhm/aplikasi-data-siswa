@@ -182,18 +182,6 @@
 	        name: 'Tokyo',
 	        data: [49.9, 71.5]
 
-	    }, {
-	        name: 'New York',
-	        data: [83.6, 78.8]
-
-	    }, {
-	        name: 'London',
-	        data: [48.9, 38.8]
-
-	    }, {
-	        name: 'Berlin',
-	        data: [42.4, 33.2]
-
 	    }]
 	});
 </script>
