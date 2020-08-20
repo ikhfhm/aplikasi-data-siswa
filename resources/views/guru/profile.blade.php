@@ -43,7 +43,7 @@
 								
 								<div class="panel">
 									<div class="panel-heading">
-										<h3 class="panel-title">Mata Pelajaran</h3>
+										<h3 class="panel-title">Mata Pelajaran yang diajar oleh guru {{$guru->nama}}</h3>
 									</div>
 									<div class="panel-body">
 										<table class="table table-striped">
