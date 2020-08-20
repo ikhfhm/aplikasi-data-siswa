@@ -149,10 +149,7 @@
 	        type: 'column'
 	    },
 	    title: {
-	        text: 'Monthly Average Rainfall'
-	    },
-	    subtitle: {
-	        text: 'Source: WorldClimate.com'
+	        text: 'Laporan Nilai Siswa'
 	    },
 	    xAxis: {
 	        categories: [
