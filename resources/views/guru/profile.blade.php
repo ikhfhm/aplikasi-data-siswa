@@ -58,6 +58,7 @@
 												</tr>
 											</thead>
 											<tbody>
+												@foreach($guru->mapel as $mapel)
 												<tr>
 													<td></td>
 													<td></td>
@@ -66,6 +67,7 @@
 													<td></td>
 													<td></td>
 												</tr>
+												@endforeach
 											</tbody>
 										</table>
 									</div>
