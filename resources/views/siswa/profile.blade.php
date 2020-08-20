@@ -183,5 +183,9 @@
 
 	    }]
 	});
+
+	$(document).ready(function() {
+	    $('#username').editable();
+	});
 </script>
 @stop
