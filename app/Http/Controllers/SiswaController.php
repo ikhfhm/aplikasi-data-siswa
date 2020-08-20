@@ -86,7 +86,9 @@ class SiswaController extends Controller
             $categories[] = $mp->nama;
         }
 
-        return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran]);
+        dd($categories);
+
+        return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran,'categories' => $categories]);
     }
 
     public function addnilai(Request $request,$idsiswa)
