@@ -177,7 +177,7 @@
 	    },
 	    series: [{
 	        name: 'Nilai',
-	        data: [49.9, 71.5, 80]
+	        data: {!!json_encode($data)!!}
 
 	    }]
 	});
