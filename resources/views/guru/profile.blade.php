@@ -27,7 +27,7 @@
 								<div class="profile-header">
 									<div class="overlay"></div>
 									<div class="profile-main">
-										<img src="{{$siswa->getAvatar()}}" class="img-circle" alt="Avatar">
+										<img src="" class="img-circle" alt="Avatar">
 										<h3 class="name">{{$siswa->nama_depan}}</h3>
 										<span class="online-status status-available">Available</span>
 									</div>
@@ -149,47 +149,5 @@
 @stop
 
 @section('footer')
-<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script>
-		Highcharts.chart('chartNilai', {
-	    chart: {
-	        type: 'column'
-	    },
-	    title: {
-	        text: 'Laporan Nilai Siswa'
-	    },
-	    xAxis: {
-	        categories: {!!json_encode($categories)!!},
-	        crosshair: true
-	    },
-	    yAxis: {
-	        min: 0,
-	        title: {
-	            text: 'Nilai'
-	        }
-	    },
-	    tooltip: {
-	        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-	        footerFormat: '</table>',
-	        shared: true,
-	        useHTML: true
-	    },
-	    plotOptions: {
-	        column: {
-	            pointPadding: 0.2,
-	            borderWidth: 0
-	        }
-	    },
-	    series: [{
-	        name: 'Nilai',
-	        data: {!!json_encode($data)!!}
 
-	    }]
-	});
-
-	$(document).ready(function() {
-	    $('.nilai').editable();
-	});
-</script>
 @stop
