@@ -29,7 +29,7 @@ class Siswa extends Model
         $total = 0;
         $hitung = 0;
         foreach($this->mapel as $mapel){
-            $total = $total + $mapel->pivot->nilai;
+            $total += $total + $mapel->pivot->nilai;
             $hitung++;
         }
 
