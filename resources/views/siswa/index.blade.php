@@ -22,7 +22,7 @@
 												<th>JENIS KELAMIN</th>
 												<th>AGAMA</th>
 												<th>ALAMAT</th>
-												<th>TEST</th>
+												<th>NILAI RATA-RATA</th>
 												<th>AKSI</th>
 											</tr>
 										</thead>
