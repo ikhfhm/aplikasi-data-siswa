@@ -5,7 +5,7 @@
 		<div class="main-content">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-6">
 						<div class="panel">
 							<div class="panel-heading">
 								<h3 class="panel-title">Ranking 5 Besar</h3>
@@ -19,7 +19,7 @@
 									</thead>
 									<tbody>
 										<tr>
-											<td>{{$mapel->kode}}</td>
+											<td>1</td>
 										</tr>
 									
 									</tbody>
