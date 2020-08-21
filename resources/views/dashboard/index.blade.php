@@ -26,7 +26,7 @@
 										@foreach($siswa as $s)
 										<tr>
 											<td>{{$ranking}}</td>
-											<td>{{$s->nama_depan}}</td>
+											<td>{{$s->nama_lengkap()}}</td>
 											<td>{{$s->rataRataNilai}}</td>
 										</tr>
 										@php
