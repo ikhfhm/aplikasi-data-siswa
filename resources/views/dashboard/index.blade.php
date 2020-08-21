@@ -23,7 +23,7 @@
 										@php
 											$ranking = 1;
 										@endphp
-										@foreach($siswa as $s)
+										@foreach($ranking5Besar() as $s)
 										<tr>
 											<td>{{$ranking}}</td>
 											<td>{{$s->nama_lengkap()}}</td>
