@@ -25,6 +25,11 @@ class Siswa extends Model
 
     public function test()
     {
-        return 'test';
+        // ambil nilai2
+        foreach($this->mapel as $mapel){
+            $total = $total + $mapel->pivot->nilai;
+        }
+
+        return $total;
     }
 }
