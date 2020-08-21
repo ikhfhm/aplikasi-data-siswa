@@ -20,12 +20,18 @@
 										</tr>
 									</thead>
 									<tbody>
+										@php
+											$ranking = 1;
+										@endphp
 										@foreach($siswa as $s)
 										<tr>
-											<td>1</td>
+											<td>{{$ranking}}</td>
 											<td>{{$s->nama_depan}}</td>
 											<td>{{$s->rataRataNilai}}</td>
 										</tr>
+										@php
+											$ranking++;
+										@endphp
 										@endforeach
 									</tbody>
 								</table>
