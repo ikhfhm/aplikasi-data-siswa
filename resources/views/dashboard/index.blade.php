@@ -23,8 +23,8 @@
 										@foreach($siswa as $s)
 										<tr>
 											<td>1</td>
-											<td>1</td>
-											<td>1</td>
+											<td>{{$s->nama_depan}}</td>
+											<td>{{$s->rataRataNilai}}</td>
 										</tr>
 										@endforeach
 									</tbody>
