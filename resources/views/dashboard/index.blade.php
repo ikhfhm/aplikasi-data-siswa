@@ -14,7 +14,9 @@
 								<table class="table table-striped">
 									<thead>
 										<tr>
-											<th>KODE</th>
+											<th>RANKING</th>
+											<th>NAMA</th>
+											<th>NILAI</th>
 										</tr>
 									</thead>
 									<tbody>
