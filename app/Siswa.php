@@ -26,6 +26,7 @@ class Siswa extends Model
     public function test()
     {
         // ambil nilai2
+        $total = 0;
         foreach($this->mapel as $mapel){
             $total = $total + $mapel->pivot->nilai;
         }
