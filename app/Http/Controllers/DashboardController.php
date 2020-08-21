@@ -14,7 +14,7 @@ class DashboardController extends Controller
     		$s->rataRataNilai = $s->rataRataNilai();
     		return $s;
     	});
-    	$siswa->sortBy('rataRataNilai');
+    	$siswa = $siswa->sortByDesc('rataRataNilai');
     	dd($siswa);
     	return view('dashboard.index');
     }
