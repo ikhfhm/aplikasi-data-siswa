@@ -10,6 +10,9 @@ class DashboardController extends Controller
     public function index()
     {
     	$siswa = Siswa::all();
+    	$siswa->map(function($s){
+
+    	});
     	dd($siswa);
     	return view('dashboard.index');
     }
