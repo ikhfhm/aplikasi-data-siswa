@@ -33,6 +33,6 @@ class Siswa extends Model
             $hitung++;
         }
 
-        return $total/$hitung;
+        return round($total/$hitung);
     }
 }
