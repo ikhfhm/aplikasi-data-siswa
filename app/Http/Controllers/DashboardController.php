@@ -15,7 +15,6 @@ class DashboardController extends Controller
     		return $s;
     	});
     	$siswa = $siswa->sortByDesc('rataRataNilai')->take(5);
-    	dd($siswa);
-    	return view('dashboard.index');
+    	return view('dashboard.index', ['siswa' => $siswa]);
     }
 }
