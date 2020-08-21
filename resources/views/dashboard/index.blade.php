@@ -40,7 +40,7 @@
 					</div>
 					<div class="col-md-3">
 						<div class="metric">
-							<span class="icon"><i class="fa fa-download"></i></span>
+							<span class="icon"><i class="fa fa-user"></i></span>
 							<p>
 								<span class="number">{{totalSiswa()}}</span>
 								<span class="title">Total Siswa</span>
@@ -50,7 +50,7 @@
 
 					<div class="col-md-3">
 						<div class="metric">
-							<span class="icon"><i class="fa fa-download"></i></span>
+							<span class="icon"><i class="fa fa-user"></i></span>
 							<p>
 								<span class="number">{{totalGuru()}}</span>
 								<span class="title">Total Guru</span>
