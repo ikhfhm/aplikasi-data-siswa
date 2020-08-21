@@ -11,3 +11,8 @@ function ranking5Besar()
     $siswa = $siswa->sortByDesc('rataRataNilai')->take(5);
     return $siswa;
 }
+
+function totalSiswa()
+{
+	return $siswa Siswa::count();
+}
