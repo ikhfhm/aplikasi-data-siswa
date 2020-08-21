@@ -9,4 +9,5 @@ function ranking5Besar()
     	return $s;
     });
     $siswa = $siswa->sortByDesc('rataRataNilai')->take(5);
+    return $siswa;
 }
