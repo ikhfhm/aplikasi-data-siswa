@@ -11,7 +11,8 @@ class DashboardController extends Controller
     {
     	$siswa = Siswa::all();
     	$siswa->map(function($s){
-
+    		$s->rataRataNilai = $s->rataRataNilai();
+    		return $s;
     	});
     	dd($siswa);
     	return view('dashboard.index');
