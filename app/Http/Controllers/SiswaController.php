@@ -99,9 +99,8 @@ class SiswaController extends Controller
         return view('siswa.profile',['siswa' => $siswa,'matapelajaran' => $matapelajaran,'categories' => $categories,'data' => $data]);
     }
 
-    public function addnilai(Request $request,$idsiswa)
+    public function addnilai(Request $request,Siswa $siswa)
     {
-        $siswa = \App\Siswa::find($idsiswa);
         if($siswa->mapel()->where('mapel_id',$request->mapel)->exists()){
             return redirect('siswa/'.$idsiswa.'/profile')->with('error', 'Data mata pelajaran sudah ada');
         }
