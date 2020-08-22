@@ -51,6 +51,11 @@
   <script src="{{asset('admin/assets/scripts/klorofil-common.js')}}"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script>
+    @if(Session::has('sukses'))
+      toastr.success('Have fun storming the castle!', 'Miracle Max Says')
+    @endif
+  </script>
   @yield('footer')
   
 </body>
