@@ -7,6 +7,7 @@ use Illuminate\Support\Str;
 use App\Exports\SiswaExport;
 use Maatwebsite\Excel\Facades\Excel;
 use PDF;
+use App\Siswa;
 
 
 class SiswaController extends Controller
