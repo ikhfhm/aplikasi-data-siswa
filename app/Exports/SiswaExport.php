@@ -15,4 +15,13 @@ class SiswaExport implements FromCollection,, WithMapping
     {
         return Siswa::all();
     }
+
+    public function map($invoice): array
+    {
+        return [
+            $invoice->invoice_number,
+            $invoice->user->name,
+            Date::dateTimeToExcel($invoice->created_at),
+        ];
+    }
 }
