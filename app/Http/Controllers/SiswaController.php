@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use App\Exports\SiswaExport;
 use Maatwebsite\Excel\Facades\Excel;
+use PDF;
 
 
 class SiswaController extends Controller
