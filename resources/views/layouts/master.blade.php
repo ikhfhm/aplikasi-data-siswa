@@ -53,7 +53,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
   <script>
     @if(Session::has('sukses'))
-      toastr.success('Have fun storming the castle!', 'Miracle Max Says')
+      toastr.success('Berhasil!', 'Selamat')
     @endif
   </script>
   @yield('footer')
