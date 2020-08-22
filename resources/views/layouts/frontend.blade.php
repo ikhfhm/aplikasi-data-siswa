@@ -4,7 +4,7 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<link rel="shortcut icon" href="{{asset('/frontend')}}/img/fav.png">
 		<!-- Author Meta -->
 		<meta name="author" content="colorlib">
 		<!-- Meta Description -->
@@ -53,7 +53,7 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+			        <a href="index.html"><img src="{{asset('/frontend')}}/img/logo.png" alt="" title="" /></a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
@@ -174,7 +174,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p1.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p1.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -196,7 +196,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p2.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p2.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -218,7 +218,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p3.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p3.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -240,7 +240,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p4.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p4.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -262,7 +262,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p1.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p1.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -284,7 +284,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p2.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p2.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -306,7 +306,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p3.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p3.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -328,7 +328,7 @@
 								<div class="thumb-wrap relative">
 									<div class="thumb relative">
 										<div class="overlay overlay-bg"></div>	
-										<img class="img-fluid" src="img/p4.jpg" alt="">
+										<img class="img-fluid" src="{{asset('/frontend')}}/img/p4.jpg" alt="">
 									</div>
 									<div class="meta d-flex justify-content-between">
 										<p><span class="lnr lnr-users"></span> 355 <span class="lnr lnr-bubble"></span>35</p>
@@ -422,7 +422,7 @@
 						<div class="active-upcoming-event-carusel">
 							<div class="single-carusel row align-items-center">
 								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
+									<img class="img-fluid" src="{{asset('/frontend')}}/img/e1.jpg" alt="">
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
@@ -435,7 +435,7 @@
 							</div>
 							<div class="single-carusel row align-items-center">
 								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e2.jpg" alt="">
+									<img class="img-fluid" src="{{asset('/frontend')}}/img/e2.jpg" alt="">
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
@@ -448,7 +448,7 @@
 							</div>	
 							<div class="single-carusel row align-items-center">
 								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
+									<img class="img-fluid" src="{{asset('/frontend')}}/img/e1.jpg" alt="">
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
@@ -461,7 +461,7 @@
 							</div>	
 							<div class="single-carusel row align-items-center">
 								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
+									<img class="img-fluid" src="{{asset('/frontend')}}/img/e1.jpg" alt="">
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
@@ -474,7 +474,7 @@
 							</div>
 							<div class="single-carusel row align-items-center">
 								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e2.jpg" alt="">
+									<img class="img-fluid" src="{{asset('/frontend')}}/img/e2.jpg" alt="">
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
@@ -487,7 +487,7 @@
 							</div>	
 							<div class="single-carusel row align-items-center">
 								<div class="col-12 col-md-6 thumb">
-									<img class="img-fluid" src="img/e1.jpg" alt="">
+									<img class="img-fluid" src="{{asset('/frontend')}}/img/e1.jpg" alt="">
 								</div>
 								<div class="detials col-12 col-md-6">
 									<p>25th February, 2018</p>
@@ -601,7 +601,7 @@
 								</p>
 							</div>
 							<div class="single-review item">
-								<img src="img/r1.png" alt="">
+								<img src="{{asset('/frontend')}}/img/r1.png" alt="">
 								<div class="title justify-content-start d-flex">
 									<a href="#"><h4>Fannie Rowe</h4></a>
 									<div class="star">
@@ -668,7 +668,7 @@
 					<div class="row">
 						<div class="col-lg-3 col-md-6 single-blog">
 							<div class="thumb">
-								<img class="img-fluid" src="img/b1.jpg" alt="">								
+								<img class="img-fluid" src="{{asset('/frontend')}}/img/b1.jpg" alt="">								
 							</div>
 							<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
 							<a href="blog-single.html">
@@ -681,7 +681,7 @@
 						</div>
 						<div class="col-lg-3 col-md-6 single-blog">
 							<div class="thumb">
-								<img class="img-fluid" src="img/b2.jpg" alt="">								
+								<img class="img-fluid" src="{{asset('/frontend')}}/img/b2.jpg" alt="">								
 							</div>
 							<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
 							<a href="blog-single.html">
@@ -694,7 +694,7 @@
 						</div>
 						<div class="col-lg-3 col-md-6 single-blog">
 							<div class="thumb">
-								<img class="img-fluid" src="img/b3.jpg" alt="">								
+								<img class="img-fluid" src="{{asset('/frontend')}}/img/b3.jpg" alt="">								
 							</div>
 							<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
 							<a href="blog-single.html">
@@ -707,7 +707,7 @@
 						</div>
 						<div class="col-lg-3 col-md-6 single-blog">
 							<div class="thumb">
-								<img class="img-fluid" src="img/b4.jpg" alt="">								
+								<img class="img-fluid" src="{{asset('/frontend')}}/img/b4.jpg" alt="">								
 							</div>
 							<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
 							<a href="blog-single.html">
