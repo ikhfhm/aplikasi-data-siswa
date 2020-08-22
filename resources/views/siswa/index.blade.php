@@ -132,6 +132,6 @@
 
 @section('footer')
 	<script>
-		swal("Hello world!");
+		
 	</script>
 @stop
