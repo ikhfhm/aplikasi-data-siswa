@@ -41,7 +41,7 @@
 												<td>{{$siswa->rataRataNilai()}}</td>
 												<td>
 													<a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
-													<a href="#" class="btn btn-danger btn-sm" siswa-id="{{$siswa->id}}">Delete</a>
+													<a href="#" class="btn btn-danger btn-sm delete" siswa-id="{{$siswa->id}}">Delete</a>
 												</td>
 											</tr>
 											@endforeach
@@ -132,6 +132,8 @@
 
 @section('footer')
 	<script>
-		
+		$('.delete').click(function(){
+			alert(1);
+		});
 	</script>
 @stop
