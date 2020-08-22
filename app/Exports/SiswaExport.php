@@ -26,4 +26,14 @@ class SiswaExport implements FromCollection, WithMapping, WithHeadings
             $siswa->rataRataNilai()
         ];
     }
+
+    public function headings(): array
+    {
+        return [
+            'NAMA LENGKAP',
+            'JENIS KELAMIN',
+            'AGAMA',
+            'NILAI RATA-RATA'
+        ];
+    }
 }
