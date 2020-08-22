@@ -135,8 +135,8 @@
 		$('.delete').click(function(){
 			var siswa_id = $(this).attr('siswa-id');
 			swal({
-			  title: "Are you sure?",
-			  text: "Once deleted, you will not be able to recover this imaginary file!",
+			  title: "Yakin?",
+			  text: "Mau dihapus data siswa dengan id "+siswa_id +" ?",
 			  icon: "warning",
 			  buttons: true,
 			  dangerMode: true,
