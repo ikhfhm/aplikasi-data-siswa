@@ -78,9 +78,8 @@ class SiswaController extends Controller
         return redirect('/siswa')->with('sukses', 'Data berhasil dihapus');
     }
 
-    public function profile($id)
+    public function profile(\App\Siswa $siswa)
     {
-        $siswa = \App\Siswa::find($id);
         $matapelajaran = \App\Mapel::all();
 
        // Menyiapkan data untuk chart
