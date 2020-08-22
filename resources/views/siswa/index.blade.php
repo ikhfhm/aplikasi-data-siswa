@@ -133,7 +133,8 @@
 @section('footer')
 	<script>
 		$('.delete').click(function(){
-			alert(1);
+			var siswa_id = $(this).attr('siswa-id');
+			alert(siswa_id);
 		});
 	</script>
 @stop
