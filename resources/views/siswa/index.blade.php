@@ -142,14 +142,11 @@
 			  dangerMode: true,
 			})
 			.then((willDelete) => {
+				console.log(willDelete);
 			  if (willDelete) {
-			    swal("Poof! Your imaginary file has been deleted!", {
-			      icon: "success",
-			    });
-			  } else {
-			    swal("Your imaginary file is safe!");
+					window.location = "/siswa/"+siswa_id+"/delete";
 			  }
-});
+			});
 
 		});
 	</script>
