@@ -87,7 +87,7 @@
 		    	</div>
 		    </div>
 		  </header><!-- #header -->
-
+		  	@yield('content')
 						
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
