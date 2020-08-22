@@ -1,1 +1,1 @@
-Ini Home
+@extends('layouts.frontend')
