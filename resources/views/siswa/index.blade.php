@@ -41,7 +41,7 @@
 												<td>{{$siswa->rataRataNilai()}}</td>
 												<td>
 													<a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
-													<a href="/siswa/{{$siswa->id}}/delete" class="btn btn-danger btn-sm" onclick="return confirm('Yakin mau dihapus?')">Delete</a>
+													<a href="#" class="btn btn-danger btn-sm" onclick="return confirm('Yakin mau dihapus?')">Delete</a>
 												</td>
 											</tr>
 											@endforeach
