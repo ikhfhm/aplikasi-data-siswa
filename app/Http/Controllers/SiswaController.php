@@ -59,9 +59,8 @@ class SiswaController extends Controller
         return view('siswa/edit',['siswa' => $siswa]);
     }
 
-    public function update(Request $request,$id)
+    public function update(Request $request,Siswa $siswa)
     {
-        $siswa = Siswa::find($id);
         $siswa->update($request->all());
         if($request->hasFile('avatar')){
             $request->file('avatar')->move('images/',$request->file('avatar')->getClientOriginalName());
