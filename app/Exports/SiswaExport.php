@@ -7,7 +7,7 @@ use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 
-class SiswaExport implements FromCollection, WithMapping
+class SiswaExport implements FromCollection, WithMapping, WithHeadings
 {
     /**
     * @return \Illuminate\Support\Collection
