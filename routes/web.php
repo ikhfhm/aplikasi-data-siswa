@@ -29,7 +29,7 @@ Route::group(['middleware' => ['auth','checkRole:admin,']],function(){
 	Route::get('/siswa/{id}/profile', 'SiswaController@profile');
 	Route::post('/siswa/{id}/addnilai', 'SiswaController@addnilai');
 	Route::get('/siswa/{id}/{idmapel}/deletenilai', 'SiswaController@deletenilai');
-	Route::get('/siswa/export', 'SiswaController@export');
+	Route::get('/siswa/export', 'SiswaController@exportExcel');
 	Route::get('/guru/{id}/profile', 'GuruController@profile');
 });
 
