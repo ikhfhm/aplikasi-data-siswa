@@ -118,4 +118,9 @@ class SiswaController extends Controller
          $siswa->mapel()->detach($idmapel);
          return redirect()->back()->with('sukses', 'Data nilai berhasil dihapus');
     }
+
+    public function export() 
+    {
+        return Excel::download(new UsersExport, 'users.xlsx');
+    }
 }
