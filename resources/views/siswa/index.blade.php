@@ -10,7 +10,7 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Data Siswa</h3>
 									<div class="right">
-										<a href="/siswa/export" class="btn btn-primary">Export</a>
+										<a href="/siswa/export" class="btn btn-sm btn-primary">Export</a>
 										<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-plus-circle"></i></button>
 									</div>
 								</div>
