@@ -123,4 +123,10 @@ class SiswaController extends Controller
     {
         return Excel::download(new SiswaExport, 'Siswa.xlsx');
     }
+
+    public function exportPdf()
+    {
+        $pdf = PDF::loadHTML('<h1>DATA SISWA</H1>');
+        return $pdf->download('siswa.pdf');
+    }
 }
