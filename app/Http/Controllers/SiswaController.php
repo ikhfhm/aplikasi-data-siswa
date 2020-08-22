@@ -119,7 +119,7 @@ class SiswaController extends Controller
          return redirect()->back()->with('sukses', 'Data nilai berhasil dihapus');
     }
 
-    public function export() 
+    public function exportExcel() 
     {
         return Excel::download(new SiswaExport, 'Siswa.xlsx');
     }
