@@ -6,7 +6,7 @@ use App\Siswa;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithMapping;
 
-class SiswaExport implements FromCollection,, WithMapping
+class SiswaExport implements FromCollection, WithMapping
 {
     /**
     * @return \Illuminate\Support\Collection
@@ -16,12 +16,13 @@ class SiswaExport implements FromCollection,, WithMapping
         return Siswa::all();
     }
 
-    public function map($invoice): array
+    public function map($siswa): array
     {
         return [
-            $invoice->invoice_number,
-            $invoice->user->name,
-            Date::dateTimeToExcel($invoice->created_at),
+            $siswa->nama_lengkap(),
+            $siswa->jenis_kelamin,
+            $siswa->agama,
+            $siswa->rataRataNilai()
         ];
     }
 }
