@@ -127,8 +127,8 @@ class SiswaController extends Controller
 
     public function exportPdf()
     {
-        $siswa = Siswa::all();
-        $pdf = PDF::loadHTML('export.siswapdf',['siswa' => $siswa]);
+        $siswa = \App\Siswa::all();
+        $pdf = PDF::loadView('export.siswapdf',['siswa' => $siswa]);
         return $pdf->download('siswa.pdf');
     }
 }
