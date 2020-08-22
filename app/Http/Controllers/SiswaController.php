@@ -56,13 +56,13 @@ class SiswaController extends Controller
 
     public function edit($id)
     {
-        $siswa = \App\Siswa::find($id);
+        $siswa = Siswa::find($id);
         return view('siswa/edit',['siswa' => $siswa]);
     }
 
     public function update(Request $request,$id)
     {
-        $siswa = \App\Siswa::find($id);
+        $siswa = Siswa::find($id);
         $siswa->update($request->all());
         if($request->hasFile('avatar')){
             $request->file('avatar')->move('images/',$request->file('avatar')->getClientOriginalName());
@@ -74,12 +74,12 @@ class SiswaController extends Controller
 
     public function delete($id)
     {
-        $siswa = \App\Siswa::find($id);
+        $siswa = Siswa::find($id);
         $siswa->delete($siswa);
         return redirect('/siswa')->with('sukses', 'Data berhasil dihapus');
     }
 
-    public function profile(\App\Siswa $siswa)
+    public function profile(Siswa $siswa)
     {
         $matapelajaran = \App\Mapel::all();
 
