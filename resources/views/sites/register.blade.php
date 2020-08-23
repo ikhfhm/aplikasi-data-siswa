@@ -37,7 +37,9 @@
 					<div class="form-select" id="service-select">
 						{!!Form::select('jenis_kelamin', ['' => 'Pilih Jenis Kelamin', 'L' => 'Laki-laki', 'P' => 'Perempuan'],['style' => 'display: none;']);!!}
 					</div>
-					
+
+					{!!Form::email('email','',['class' => 'form-control','placeholder' => 'Email'])!!}
+					{!!Form::password('password',['class' => 'form-control','placeholder' => 'Password'])!!}
 					<button class="primary-btn text-uppercase">Submit</button>
 				{!!Form::close()!!}
 			</div>
