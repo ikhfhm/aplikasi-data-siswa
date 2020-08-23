@@ -20,4 +20,9 @@ class SiteController extends Controller
     {
     	return view('sites.register');
     }
+
+    public function postregister(Request $request)
+    {
+    	
+    }
 }
