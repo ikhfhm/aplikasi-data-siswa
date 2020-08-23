@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="row justify-content-between align-items-center">
 			<div class="col-lg-6 col-md-6 search-course-left">
-				<h1 class="text-white">
+				<h1>
 					Get reduced fee <br>
 					during this Summer!
 				</h1>
@@ -45,7 +45,7 @@
 			</div>
 			<div class="col-lg-4 col-md-6 search-course-right section-gap">
 				<form class="form-wrap" action="#">
-					<h4 class="text-white pb-20 text-center mb-30">Search for Available Course</h4>		
+					<h4 class="pb-20 text-center mb-30">Search for Available Course</h4>		
 					<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'">
 					<input type="phone" class="form-control" name="phone" placeholder="Your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'">
 					<input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'">
