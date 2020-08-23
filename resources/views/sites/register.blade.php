@@ -40,7 +40,7 @@
 
 					{!!Form::email('email','',['class' => 'form-control','placeholder' => 'Email'])!!}
 					{!!Form::password('password',['class' => 'form-control','placeholder' => 'Password'])!!}
-					<button class="primary-btn text-uppercase">Submit</button>
+					<input class="primary-btn text-uppercase" value="Kirim" style="text-align: center">
 				{!!Form::close()!!}
 			</div>
 		</div>
