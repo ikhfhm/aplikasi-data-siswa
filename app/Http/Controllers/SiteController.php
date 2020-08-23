@@ -18,6 +18,6 @@ class SiteController extends Controller
 
     public function register()
     {
-    	return view('sites.index');
+    	return view('sites.register');
     }
 }
