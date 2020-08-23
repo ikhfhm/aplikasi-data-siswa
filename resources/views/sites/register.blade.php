@@ -18,7 +18,7 @@
 <section class="search-course-area relative" style="background: unset;">
 	<div class="container">
 		<div class="row justify-content-between align-items-center">
-			<div class="col-lg-6 col-md-6 search-course-left">
+			<div class="col-lg-3 col-md-6 search-course-left">
 				<h1>
 					Pendaftaran Online <br>
 					Bergabung bersama kami
@@ -27,7 +27,7 @@
 					Dengan kurikulum yang update dengan kebutuhan pasar, kami menjami lulusan akan mudah terserap di dunia kerja.
 				</p>
 			</div>
-			<div class="col-lg-4 col-md-6 search-course-right section-gap">
+			<div class="col-lg-49 col-md-6 search-course-right section-gap">
 				{!! Form::open(['url' => '/postregister', 'class' => 'form-wrap']) !!}
 					<h4 class="pb-20 text-center mb-30">Formulir Pendaftaran</h4>		
 					{!!Form::text('nama_depan','',['class' => 'form-control','placeholder' => 'Nama Depan'])!!}
