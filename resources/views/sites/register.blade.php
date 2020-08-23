@@ -30,13 +30,10 @@
 			<div class="col-lg-4 col-md-6 search-course-right section-gap">
 				{!! Form::open(['url' => '/postregister', 'class' => 'form-wrap']) !!}
 					<h4 class="pb-20 text-center mb-30">Formulir Pendaftaran</h4>		
-					{!!Form::text('nama','',['class' => 'form-control','placeholder' => 'Nama Lengkap'])!!}
-					<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'">
-					
-					<input type="phone" class="form-control" name="phone" placeholder="Your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'">
-					
-					<input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'">
-					
+					{!!Form::text('nama_depan','',['class' => 'form-control','placeholder' => 'Nama Depan'])!!}
+					{!!Form::text('nama_belakang','',['class' => 'form-control','placeholder' => 'Nama Belakang'])!!}
+					{!!Form::text('agama','',['class' => 'form-control','placeholder' => 'Agama'])!!}
+					{!!Form::textarea('alamat','',['class' => 'form-control','placeholder' => 'Alamat'])!!}
 					<div class="form-select" id="service-select">
 						<select style="display: none;">
 							<option datd-display="">Choose Course</option>
