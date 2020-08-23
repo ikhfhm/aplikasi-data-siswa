@@ -16,7 +16,6 @@
 </section>
 
 <section class="search-course-area relative" style="background: unset;">
-	<div class="overlay overlay-bg"></div>
 	<div class="container">
 		<div class="row justify-content-between align-items-center">
 			<div class="col-lg-6 col-md-6 search-course-left">
