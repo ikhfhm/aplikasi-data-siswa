@@ -1,6 +1,7 @@
 <?php
 
 return [
+	'logo_url' => '/images/logo.png',
 	'title' => 'SMA 1 Kingsarmy',
 	'welcome_message' => 'Selamat Datang di Website SMA 1 Kingsarmy',
 	'sub_welcome_message' => 'Sekolah dengan kurikulum terbaik di dunia militer',
