@@ -35,7 +35,7 @@
 					{!!Form::text('agama','',['class' => 'form-control','placeholder' => 'Agama'])!!}
 					{!!Form::textarea('alamat','',['class' => 'form-control','placeholder' => 'Alamat'])!!}
 					<div class="form-select" id="service-select">
-						{!!Form::select('jenis_kelamin', ['L' => 'Laki-laki', 'P' => 'Perempuan'],['style' => 'display: none;']);!!}
+						{!!Form::select('jenis_kelamin', ['' => 'Pilih Jenis Kelamin', 'L' => 'Laki-laki', 'P' => 'Perempuan'],['style' => 'display: none;']);!!}
 					</div>
 					
 					<button class="primary-btn text-uppercase">Submit</button>
