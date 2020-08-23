@@ -35,15 +35,9 @@
 					{!!Form::text('agama','',['class' => 'form-control','placeholder' => 'Agama'])!!}
 					{!!Form::textarea('alamat','',['class' => 'form-control','placeholder' => 'Alamat'])!!}
 					<div class="form-select" id="service-select">
-						<select style="display: none;">
-							<option datd-display="">Choose Course</option>
-							<option value="1">Course One</option>
-							<option value="2">Course Two</option>
-							<option value="3">Course Three</option>
-							<option value="4">Course Four</option>
-						</select><div class="nice-select" tabindex="0"><span class="current">Choose Course</span><ul class="list"><li data-value="Choose Course" class="option selected">Choose Course</li><li data-value="1" class="option">Course One</li><li data-value="2" class="option">Course Two</li><li data-value="3" class="option">Course Three</li><li data-value="4" class="option">Course Four</li></ul></div>
+						{!!Form::select('jenis_kelamin', ['L' => 'Laki-laki', 'P' => 'Perempuan'],['style' => 'display: none;']);!!}
 					</div>
-
+					
 					<button class="primary-btn text-uppercase">Submit</button>
 				{!!Form::close()!!}
 			</div>
