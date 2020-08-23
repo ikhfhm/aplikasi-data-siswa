@@ -28,8 +28,7 @@
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-6 search-course-right section-gap">
-
-			{!! Form::open(['url' => 'foo/bar']) !!}
+			{!! Form::open(['url' => '/postregister']) !!}
 				<form class="form-wrap" action="#">
 					<h4 class="pb-20 text-center mb-30">Formulir Pendaftaran</h4>		
 					<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'">
