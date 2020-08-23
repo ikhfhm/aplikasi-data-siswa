@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class SiteController extends Controller
 {
@@ -23,6 +24,18 @@ class SiteController extends Controller
 
     public function postregister(Request $request)
     {
-    	dd($request->all());
+    	// Input pendaftaran sebagai user dulu
+    	$user = new \App\User;
+        $user->role = 'siswa';
+        $user->name = $request->nama_depan;
+        $user->email = $request->email;
+        $user->password = bcrypt($request->password);
+        $user->remember_token = Str::random(40);
+        $user->save();
+
+        $request->request->add(['user_id' => $user->id ]);
+        $siswa = \App\Siswa::create($request->all());
+
+        return redirect('/',)->with('sukses', 'Data pendaftaran berhasil dikirim');
     }
 }
