@@ -28,12 +28,15 @@
 				</p>
 			</div>
 			<div class="col-lg-4 col-md-6 search-course-right section-gap">
-			{!! Form::open(['url' => '/postregister', 'class' => 'form-wrap']) !!}
-				<form class="form-wrap" action="#">
+				{!! Form::open(['url' => '/postregister', 'class' => 'form-wrap']) !!}
 					<h4 class="pb-20 text-center mb-30">Formulir Pendaftaran</h4>		
+					{!!Form::text('nama','',['class' => 'form-control'])!!}
 					<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'">
+					
 					<input type="phone" class="form-control" name="phone" placeholder="Your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'">
+					
 					<input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'">
+					
 					<div class="form-select" id="service-select">
 						<select style="display: none;">
 							<option datd-display="">Choose Course</option>
@@ -42,7 +45,8 @@
 							<option value="3">Course Three</option>
 							<option value="4">Course Four</option>
 						</select><div class="nice-select" tabindex="0"><span class="current">Choose Course</span><ul class="list"><li data-value="Choose Course" class="option selected">Choose Course</li><li data-value="1" class="option">Course One</li><li data-value="2" class="option">Course Two</li><li data-value="3" class="option">Course Three</li><li data-value="4" class="option">Course Four</li></ul></div>
-					</div>									
+					</div>
+
 					<button class="primary-btn text-uppercase">Submit</button>
 				{!!Form::close()!!}
 			</div>
