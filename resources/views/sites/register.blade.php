@@ -26,9 +26,10 @@
 				<p>
 					Dengan kurikulum yang update dengan kebutuhan pasar, kami menjami lulusan akan mudah terserap di dunia kerja.
 				</p>
-
 			</div>
 			<div class="col-lg-4 col-md-6 search-course-right section-gap">
+
+			{!! Form::open(['url' => 'foo/bar']) !!}
 				<form class="form-wrap" action="#">
 					<h4 class="pb-20 text-center mb-30">Formulir Pendaftaran</h4>		
 					<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'">
@@ -44,7 +45,7 @@
 						</select><div class="nice-select" tabindex="0"><span class="current">Choose Course</span><ul class="list"><li data-value="Choose Course" class="option selected">Choose Course</li><li data-value="1" class="option">Course One</li><li data-value="2" class="option">Course Two</li><li data-value="3" class="option">Course Three</li><li data-value="4" class="option">Course Four</li></ul></div>
 					</div>									
 					<button class="primary-btn text-uppercase">Submit</button>
-				</form>
+				{!!Form::close()!!}
 			</div>
 		</div>
 	</div>	
