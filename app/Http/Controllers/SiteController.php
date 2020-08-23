@@ -23,6 +23,6 @@ class SiteController extends Controller
 
     public function postregister(Request $request)
     {
-    	
+    	dd($request->all());
     }
 }

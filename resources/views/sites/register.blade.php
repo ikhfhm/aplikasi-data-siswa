@@ -35,9 +35,8 @@
 					{!!Form::text('agama','',['class' => 'form-control','placeholder' => 'Agama'])!!}
 					{!!Form::textarea('alamat','',['class' => 'form-control','placeholder' => 'Alamat'])!!}
 					<div class="form-select" id="service-select">
-						{!!Form::select('jenis_kelamin', ['' => 'Pilih Jenis Kelamin', 'L' => 'Laki-laki', 'P' => 'Perempuan'],['style' => 'display: none;']);!!}
+						{!!Form::select('jenis_kelamin', ['' => 'Pilih Jenis Kelamin', 'L' => 'Laki-laki', 'P' => 'Perempuan'],'L');!!}
 					</div>
-
 					{!!Form::email('email','',['class' => 'form-control','placeholder' => 'Email'])!!}
 					{!!Form::password('password',['class' => 'form-control','placeholder' => 'Password'])!!}
 					<input type="submit" class="primary-btn text-uppercase" value="Kirim" style="text-align: center;">
