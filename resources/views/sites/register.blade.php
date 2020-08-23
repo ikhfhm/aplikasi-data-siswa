@@ -14,7 +14,8 @@
 		</div>
 	</div>
 </section>
-<section class="search-course-area relative">
+
+<section class="search-course-area relative" style="background: unset;">
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
 		<div class="row justify-content-between align-items-center">
