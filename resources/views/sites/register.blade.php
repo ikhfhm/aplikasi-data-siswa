@@ -30,7 +30,7 @@
 			<div class="col-lg-4 col-md-6 search-course-right section-gap">
 				{!! Form::open(['url' => '/postregister', 'class' => 'form-wrap']) !!}
 					<h4 class="pb-20 text-center mb-30">Formulir Pendaftaran</h4>		
-					{!!Form::text('nama','',['class' => 'form-control'])!!}
+					{!!Form::text('nama','',['class' => 'form-control','placeholder' => 'Nama Lengkap'])!!}
 					<input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'">
 					
 					<input type="phone" class="form-control" name="phone" placeholder="Your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Phone Number'">
