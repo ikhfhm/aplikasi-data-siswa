@@ -26,22 +26,7 @@
 				<p>
 					inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.
 				</p>
-				<div class="row details-content">
-					<div class="col single-detials">
-						<span class="lnr lnr-graduation-hat"></span>
-						<a href="#"><h4>Expert Instructors</h4></a>		
-						<p>
-							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-						</p>						
-					</div>
-					<div class="col single-detials">
-						<span class="lnr lnr-license"></span>
-						<a href="#"><h4>Certification</h4></a>		
-						<p>
-							Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-						</p>						
-					</div>								
-				</div>
+				
 			</div>
 			<div class="col-lg-4 col-md-6 search-course-right section-gap">
 				<form class="form-wrap" action="#">
