@@ -3,7 +3,7 @@
 @section('content')
 	
 			<!-- start banner Area -->
-			<section class="banner-area relative" id="home">
+			<section class="banner-area relative" id="home" style="background: url('{{config('sekolah.image_banner_url')}}');">
 				<div class="overlay overlay-bg"></div>	
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-between">
