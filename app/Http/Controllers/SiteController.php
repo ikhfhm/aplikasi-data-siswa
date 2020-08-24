@@ -38,4 +38,9 @@ class SiteController extends Controller
 
         return redirect('/',)->with('sukses', 'Data pendaftaran berhasil dikirim');
     }
+
+    public function singlepost($slug)
+    {
+        
+    }
 }
