@@ -31,6 +31,7 @@ Route::group(['middleware' => ['auth','checkRole:admin,']],function(){
 	Route::get('/siswa/exportexcel', 'SiswaController@exportExcel');
 	Route::get('/siswa/exportpdf', 'SiswaController@exportPdf');
 	Route::get('/guru/{id}/profile', 'GuruController@profile');
+	Route::get('/posts', 'PostController@index');
 });
 
 Route::group(['middleware' => ['auth','checkRole:admin,siswa']],function(){
