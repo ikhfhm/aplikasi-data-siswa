@@ -200,7 +200,7 @@
 									<img src="img/blog/user-info.png" alt="">
 									<a href="#"><h4>{{$post->user->name}}</h4></a>
 									<p>
-										Senior blog writer
+										{{$post->user->role}}
 									</p>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
