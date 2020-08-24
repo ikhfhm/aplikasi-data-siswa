@@ -10,7 +10,7 @@ class SiteController extends Controller
 {
     public function home()
     {
-        $post = Post::all();
+        $posts = Post::all();
     	return view('sites.home',compact(['posts']));
     }
 

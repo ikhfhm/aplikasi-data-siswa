@@ -585,11 +585,10 @@
 							</div>
 							<p class="meta">25 April, 2018  |  By <a href="#">Mark Wiens</a></p>
 							<a href="blog-single.html">
-								<h5>Addiction When Gambling Becomes A Problem</h5>
+								<h5>{{$post->title}}</h5>
 							</a>
-							<p>
-								Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their.
-							</p>
+							{!!$post->content!!}
+							
 							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>		
 						</div>
 						@endforeach
