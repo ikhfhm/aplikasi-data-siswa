@@ -198,7 +198,7 @@
 								</div>
 								<div class="single-sidebar-widget user-info-widget">
 									<img src="img/blog/user-info.png" alt="">
-									<a href="#"><h4>Charlie Barber</h4></a>
+									<a href="#"><h4>{{$post->user->name}}</h4></a>
 									<p>
 										Senior blog writer
 									</p>
