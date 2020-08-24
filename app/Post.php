@@ -20,6 +20,5 @@ class Post extends Model
     		return $this->thumbnail;
     	} else 
     		return asset('no-thumbnail.jpg');
-    	}
     }
 }
