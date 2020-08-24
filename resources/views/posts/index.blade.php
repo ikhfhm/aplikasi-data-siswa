@@ -10,21 +10,16 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Posts</h3>
 									<div class="right">
-										<a href="/siswa/exportpdf" class="btn btn-sm btn-primary">Add New Post</a>
-
+										<a href="#" class="btn btn-sm btn-primary">Add New Post</a>
 									</div>
 								</div>
 								<div class="panel-body">
 									<table class="table table-hover">
 										<thead>
 											<tr>
-												<th>NAMA DEPAN</th>
-												<th>NAMA BELAKANG</th>
-												<th>JENIS KELAMIN</th>
-												<th>AGAMA</th>
-												<th>ALAMAT</th>
-												<th>NILAI RATA-RATA</th>
-												<th>AKSI</th>
+												<th>ID</th>
+												<th>TITLE</th>
+												<th>USER</th>
 											</tr>
 										</thead>
 										<tbody>
