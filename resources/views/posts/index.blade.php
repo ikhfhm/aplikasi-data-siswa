@@ -28,7 +28,7 @@
 											<tr>
 												<td>{{$post->id}}</td>
 												<td>{{$post->title}}</td>
-												<td>{{$post->user_id}}</td>
+												<td>{{$post->user->name}}</td>
 												<td>
 													<a href="#" class="btn btn-warning btn-sm">Edit</a>
 													<a href="#" class="btn btn-danger btn-sm delete">Delete</a>
