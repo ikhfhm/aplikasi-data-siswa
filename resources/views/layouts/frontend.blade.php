@@ -37,8 +37,8 @@
 			  		<div class="row">
 			  			<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
 			  				<ul>
-								<li><a href="{{config('sekolah.facebook')}}"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="{{config('sekolah.twitter')}}"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="{{config('sekolah.facebook_url')}}"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="{{config('sekolah.twitter_url')}}"><i class="fa fa-twitter"></i></a></li>
 			  				</ul>			
 			  			</div>
 			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
