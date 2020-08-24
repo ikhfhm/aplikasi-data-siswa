@@ -583,7 +583,7 @@
 							<div class="thumb">
 								<img class="img-fluid" src="{{asset('/frontend')}}/img/b1.jpg" alt="">								
 							</div>
-							<p class="meta">{{$post->created_at->diffForHumans()}}  |  By <a href="#">{{$post->user->name}}</a></p>
+							<p class="meta">{{$post->created_at->format('d M Y')}}  |  oleh <a href="#">{{$post->user->name}}</a></p>
 							<a href="blog-single.html">
 								<h5>{{$post->title}}</h5>
 							</a>
