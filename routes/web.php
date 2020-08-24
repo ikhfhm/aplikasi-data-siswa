@@ -11,9 +11,17 @@
 |
 */
 
+
 Route::get('/', 'SiteController@home');
 Route::get('/register', 'SiteController@register');
 Route::post('/postregister', 'SiteController@postregister');
+
+Route::get('/{slug}',[
+	'uses' => 'SiteController@singlepost',
+	'as' => 'site.single.post'
+]);
+
+
 
 Route::get('/login', 'AuthController@login')->name('login');
 Route::post('/postlogin', 'AuthController@postlogin');
