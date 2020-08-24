@@ -8,7 +8,7 @@
 					<div class="col-md-12">
 						<div class="panel">
 								<div class="panel-heading">
-									<h3 class="panel-title">Data Siswa</h3>
+									<h3 class="panel-title">Posts</h3>
 									<div class="right">
 										<a href="/siswa/exportexcel" class="btn btn-sm btn-primary">Export Excel</a>
 
