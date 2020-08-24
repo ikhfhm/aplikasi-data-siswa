@@ -41,6 +41,6 @@ class SiteController extends Controller
 
     public function singlepost($slug)
     {
-        
+        $post = Post::where('slug','=',$slug)->first();
     }
 }
