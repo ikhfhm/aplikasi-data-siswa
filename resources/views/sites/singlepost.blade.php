@@ -31,7 +31,7 @@
 								<div class="col-lg-3  col-md-3 meta-details">
 									<div class="user-details row">
 										<p class="user-name col-lg-12 col-md-12 col-6"><a href="#">{{$post->user->name}}</a> <span class="lnr lnr-user"></span></p>
-										<p class="date col-lg-12 col-md-12 col-6"><a href="#">{{$post->created_at}}</a> <span class="lnr lnr-calendar-full"></span></p>
+										<p class="date col-lg-12 col-md-12 col-6"><a href="#">{{$post->created_at->format()}}</a> <span class="lnr lnr-calendar-full"></span></p>
 					
 									</div>
 								</div>
