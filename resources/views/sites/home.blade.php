@@ -578,6 +578,7 @@
 						</div>
 					</div>					
 					<div class="row">
+						@foreach($posts as $post)
 						<div class="col-lg-3 col-md- single-blog">
 							<div class="thumb">
 								<img class="img-fluid" src="{{asset('/frontend')}}/img/b1.jpg" alt="">								
@@ -591,7 +592,7 @@
 							</p>
 							<a href="#" class="details-btn d-flex justify-content-center align-items-center"><span class="details">Details</span><span class="lnr lnr-arrow-right"></span></a>		
 						</div>
-						
+						@endforeach
 					</div>
 				</div>	
 			</section>
