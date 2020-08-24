@@ -20,20 +20,18 @@
 												<th>ID</th>
 												<th>TITLE</th>
 												<th>USER</th>
+												<th>ACTIONS</th>
 											</tr>
 										</thead>
 										<tbody>
-											@foreach($data_siswa as $siswa)
+											@foreach($posts as $post)
 											<tr>
-												<td><a href="/siswa/{{$siswa->id}}/profile">{{$siswa->nama_depan}}</a></td>
-												<td><a href="/siswa/{{$siswa->id}}/profile">{{$siswa->nama_belakang}}</a></td>
-												<td>{{$siswa->jenis_kelamin}}</td>
-												<td>{{$siswa->agama}}</td>
-												<td>{{$siswa->alamat}}</td>
-												<td>{{$siswa->rataRataNilai()}}</td>
+												<td>{{$post->id}}</td>
+												<td>{{$post->title}}</td>
+												<td>{{$post->user_id}}</td>
 												<td>
-													<a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
-													<a href="#" class="btn btn-danger btn-sm delete" siswa-id="{{$siswa->id}}">Delete</a>
+													<a href="#" class="btn btn-warning btn-sm">Edit</a>
+													<a href="#" class="btn btn-danger btn-sm delete">Delete</a>
 												</td>
 											</tr>
 											@endforeach
