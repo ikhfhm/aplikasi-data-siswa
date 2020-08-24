@@ -581,7 +581,7 @@
 						@foreach($posts as $post)
 						<div class="col-lg-3 col-md- single-blog">
 							<div class="thumb">
-								<img class="img-fluid" src="{{asset('/frontend')}}/img/b1.jpg" alt="">								
+								<img class="img-fluid" src="{{$post->thumbnail}}" alt="">								
 							</div>
 							<p class="meta">{{$post->created_at->format('d M Y')}}  |  oleh <a href="#">{{$post->user->name}}</a></p>
 							<a href="blog-single.html">
