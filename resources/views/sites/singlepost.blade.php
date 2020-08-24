@@ -50,7 +50,7 @@
 								</div>
 								<div class="col-lg-9 col-md-9">
 									<h3 class="mt-20 mb-20">{{$post->title}}</h3>
-									{{$post->content}}
+									{!!$post->content!!}
 								</div>
 								<div class="col-lg-12">
 									<div class="quotes">
