@@ -41,6 +41,10 @@ Route::group(['middleware' => ['auth','checkRole:admin,']],function(){
 			'uses' => 'PostController@add',
 			'as' => 'posts.add',
 		]);
+	Route::post('post/create', [
+			'uses' => 'PostController@create',
+			'as' => 'posts.create',
+		]);
 });
 
 
