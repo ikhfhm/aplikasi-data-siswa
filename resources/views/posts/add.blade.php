@@ -22,6 +22,11 @@
 											    	<span class="help-block">{{$errors->first('title')}}</span>
 											    @endif
 											  </div>
+
+											  <div class="form-group">
+											    <label for="exampleFormControlTextarea1">Alamat</label>
+											    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('alamat')}}</textarea>
+											  </div>
 										</div>
 
 										<div class="col-md-4">
