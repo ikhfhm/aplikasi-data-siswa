@@ -14,30 +14,7 @@
 									</div>
 								</div>
 								<div class="panel-body">
-									<table class="table table-hover">
-										<thead>
-											<tr>
-												<th>ID</th>
-												<th>TITLE</th>
-												<th>USER</th>
-												<th>ACTIONS</th>
-											</tr>
-										</thead>
-										<tbody>
-											@foreach($posts as $post)
-											<tr>
-												<td>{{$post->id}}</td>
-												<td>{{$post->title}}</td>
-												<td>{{$post->user->name}}</td>
-												<td>
-													<a target="_blank" href="{{route('site.single.post',$post->slug)}}" class="btn btn-info btn-sm">View</a>
-													<a href="#" class="btn btn-warning btn-sm">Edit</a>
-													<a href="#" class="btn btn-danger btn-sm delete">Delete</a>
-												</td>
-											</tr>
-											@endforeach
-										</tbody>
-									</table>
+									
 								</div>
 							</div>
 					</div>
