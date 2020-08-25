@@ -23,7 +23,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
   <style>
     .ck-editor__editable_inline {
-        min-height: 500px;
+        min-height: 300px;
     }
   </style>
   @yield('header')
