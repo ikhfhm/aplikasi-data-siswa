@@ -16,13 +16,12 @@
 											<form action="/siswa/create" method="post" enctype="multipart/form-data">
 									        	{{csrf_field()}}
 											  <div class="form-group{{$errors->has('title') ? ' has-error' : ''}}">
-											    <label for="exampleInputEmail1">Nama Depan</label>
-											    <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan" value="{{old('title')}}">
+											    <label for="exampleInputEmail1">Title</label>
+											    <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title" value="{{old('title')}}">
 											    @if($errors->has('title'))
 											    	<span class="help-block">{{$errors->first('title')}}</span>
 											    @endif
 											  </div>
-											</form>
 										</div>
 
 										<div class="col-md-4">
