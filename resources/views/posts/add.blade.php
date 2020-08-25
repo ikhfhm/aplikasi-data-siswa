@@ -24,8 +24,8 @@
 											  </div>
 
 											  <div class="form-group">
-											    <label for="exampleFormControlTextarea1">Alamat</label>
-											    <textarea name="alamat" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('alamat')}}</textarea>
+											    <label for="exampleFormControlTextarea1">Content</label>
+											    <textarea name="content" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('alamat')}}</textarea>
 											  </div>
 										</div>
 
