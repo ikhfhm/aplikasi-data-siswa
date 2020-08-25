@@ -52,6 +52,7 @@
 @stop
 
 @section('footer')
+	<script src="/vendor/laravel-filemanager/js/stand-alone-button.js"></script>
 	<script>
 	    ClassicEditor
 	        .create( document.querySelector( '#content' ) )
