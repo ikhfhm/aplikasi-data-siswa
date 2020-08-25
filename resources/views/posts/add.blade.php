@@ -13,7 +13,7 @@
 								<div class="panel-body">
 									<div class="row">
 										<div class="col-md-8">
-											<form action="/siswa/create" method="post" enctype="multipart/form-data">
+											<form action="{{route('posts.create')}}" method="post" enctype="multipart/form-data">
 									        	{{csrf_field()}}
 											  <div class="form-group{{$errors->has('title') ? ' has-error' : ''}}">
 											    <label for="exampleInputEmail1">Title</label>
