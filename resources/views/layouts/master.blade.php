@@ -21,6 +21,11 @@
   <!-- ICONS -->
   <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
   <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+  <style>
+    .ck-editor__editable_inline {
+        min-height: 500px;
+    }
+  </style>
   @yield('header')
 </head>
 
