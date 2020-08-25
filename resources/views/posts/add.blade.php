@@ -25,7 +25,7 @@
 
 											  <div class="form-group">
 											    <label for="exampleFormControlTextarea1">Content</label>
-											    <textarea name="content" class="form-control" id="exampleFormControlTextarea1" rows="3">{{old('alamat')}}</textarea>
+											    <textarea name="content" class="form-control" id="content" rows="3">{{old('alamat')}}</textarea>
 											  </div>
 										</div>
 
@@ -41,4 +41,14 @@
 		</div>
 	</div>
 
+@stop
+
+@section('footer')
+	<script>
+	    ClassicEditor
+	        .create( document.querySelector( '#editor' ) )
+	        .catch( error => {
+	            console.error( error );
+	        } );
+	</script>
 @stop
