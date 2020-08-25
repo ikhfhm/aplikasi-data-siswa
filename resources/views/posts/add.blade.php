@@ -59,5 +59,6 @@
 	        .catch( error => {
 	            console.error( error );
 	        } );
+	    $('#lfm').filemanager('image');
 	</script>
 @stop
