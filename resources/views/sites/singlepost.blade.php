@@ -39,7 +39,6 @@
 									<h3 class="mt-20 mb-20">{{$post->title}}</h3>
 									{!!$post->content!!}
 								</div>
-								
 							</div>
 							<div class="navigation-area">
 								<div class="row">
