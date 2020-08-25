@@ -27,6 +27,6 @@ class PostController extends Controller
     		'thumbnail' => $request->thumbnail
     	]);
 
-    	return redirect()->route('posts.index')
+    	return redirect()->route('posts.index')->with('sukses', 'Data behasil diinput');
     }
 }
