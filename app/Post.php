@@ -16,9 +16,6 @@ class Post extends Model
 
     public function thumbnail()
     {
-    	if($this->thumbnail){
-    		return $this->thumbnail;
-    	} else 
-    		return asset('no-thumbnail.jpg');
+    	return !$this->thumbnail ? asset('no-thumbnail.jpg') : $this->thumbnail;
     }
 }
