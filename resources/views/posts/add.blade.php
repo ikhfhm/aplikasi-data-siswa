@@ -11,7 +11,15 @@
 									<h3 class="panel-title">Add new post</h3>
 								</div>
 								<div class="panel-body">
-									
+									<div class="row">
+										<div class="col-md-6">
+											Ini untuk form
+										</div>
+
+										<div class="col-md-6">
+											Ini untuk thumbnail
+										</div>
+									</div>
 								</div>
 							</div>
 					</div>
