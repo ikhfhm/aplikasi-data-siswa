@@ -39,8 +39,9 @@
 											   <input id="thumbnail" class="form-control" type="text" name="thumbnail">
 											 </div>
 											 <img id="holder" style="margin-top:15px;max-height:100px;">
-
+											 <div class="input-group">
 											 <input type="submit" class="btn btn-info" value="Submit">
+											 </div>
 										</div>
 									</div>
 								</div>
