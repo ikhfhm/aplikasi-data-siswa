@@ -15,11 +15,11 @@
 										<div class="col-md-8">
 											<form action="/siswa/create" method="post" enctype="multipart/form-data">
 									        	{{csrf_field()}}
-											  <div class="form-group{{$errors->has('nama_depan') ? ' has-error' : ''}}">
+											  <div class="form-group{{$errors->has('title') ? ' has-error' : ''}}">
 											    <label for="exampleInputEmail1">Nama Depan</label>
-											    <input name="nama_depan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan" value="{{old('nama_depan')}}">
-											    @if($errors->has('nama_depan'))
-											    	<span class="help-block">{{$errors->first('nama_depan')}}</span>
+											    <input name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan" value="{{old('title')}}">
+											    @if($errors->has('title'))
+											    	<span class="help-block">{{$errors->first('title')}}</span>
 											    @endif
 											  </div>
 											</form>
