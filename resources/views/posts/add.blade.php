@@ -42,6 +42,7 @@
 											 <div class="input-group">
 											 <input type="submit" class="btn btn-info" value="Submit">
 											 </div>
+											</form>
 										</div>
 									</div>
 								</div>
