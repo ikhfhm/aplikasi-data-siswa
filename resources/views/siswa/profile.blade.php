@@ -27,7 +27,7 @@
 								<div class="profile-header">
 									<div class="overlay"></div>
 									<div class="profile-main">
-										<img src="{{$siswa->getAvatar()}}" class="img-circle" alt="Avatar">
+										<img width="100" height="100" src="{{$siswa->getAvatar()}}" class="img-circle" alt="Avatar">
 										<h3 class="name">{{$siswa->nama_depan}}</h3>
 										<span class="online-status status-available">Available</span>
 									</div>
