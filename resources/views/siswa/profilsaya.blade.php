@@ -26,17 +26,17 @@
 								<div class="profile-header">
 									<div class="overlay"></div>
 									<div class="profile-main">
-										<img src="{{$siswa->getAvatar()}}" class="img-circle" alt="Avatar">
-										<h3 class="name">{{$siswa->nama_depan}}</h3>
+										<img src="{{auth()->user()->siswa->getAvatar()}}" class="img-circle" alt="Avatar">
+										<h3 class="name">{{auth()->user()->siswa->nama_depan}}</h3>
 										<span class="online-status status-available">Available</span>
 									</div>
 									<div class="profile-stat">
 										<div class="row">
 											<div class="col-md-4 stat-item">
-												{{$siswa->mapel->count()}} <span>Mata Pelajaran</span>
+												{{auth()->user()->siswa->mapel->count()}} <span>Mata Pelajaran</span>
 											</div>
 											<div class="col-md-4 stat-item">
-												{{$siswa->rataRataNilai()}} <span>Nilai Rata-rata</span>
+												{{auth()->user()->siswa->rataRataNilai()}} <span>Nilai Rata-rata</span>
 											</div>
 											<div class="col-md-4 stat-item">
 												2174 <span>Points</span>
@@ -50,13 +50,13 @@
 									<div class="profile-info">
 										<h4 class="heading">Data Diri</h4>
 										<ul class="list-unstyled list-justify">
-											<li>Jenis Kelamin <span>{{$siswa->jenis_kelamin}}</span></li>
-											<li>Agama <span>{{$siswa->agama}}</span></li>
-											<li>Alamat <span>{{$siswa->alamat}}</span></li>
+											<li>Jenis Kelamin <span>{{auth()->user()->siswa->jenis_kelamin}}</span></li>
+											<li>Agama <span>{{auth()->user()->siswa->agama}}</span></li>
+											<li>Alamat <span>{{auth()->user()->siswa->alamat}}</span></li>
 										</ul>
 									</div>
 									
-									<div class="text-center"><a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning">Edit Profile</a></div>
+									<div class="text-center"><a href="/siswa/{{auth()->user()->siswa->id}}/edit" class="btn btn-warning">Edit Profile</a></div>
 								</div>
 								<!-- END PROFILE DETAIL -->
 							</div>
@@ -83,14 +83,14 @@
 												</tr>
 											</thead>
 											<tbody>
-												@foreach($siswa->mapel as $mapel)
+												@foreach(auth()->user()->siswa->mapel as $mapel)
 												<tr>
 													<td>{{$mapel->kode}}</td>
 													<td>{{$mapel->nama}}</td>
 													<td>{{$mapel->semester}}</td>
-													<td><a href="#" class="nilai" data-type="text" data-pk="{{$mapel->id}}" data-url="/api/siswa/{{$siswa->id}}/editnilai" data-title="Masukkan Nilai">{{$mapel->pivot->nilai}}</a></td>
+													<td><a href="#" class="nilai" data-type="text" data-pk="{{$mapel->id}}" data-url="/api/siswa/{{auth()->user()->siswa->id}}/editnilai" data-title="Masukkan Nilai">{{$mapel->pivot->nilai}}</a></td>
 													<td><a href="/guru/{{$mapel->guru_id}}/profile">{{$mapel->guru->nama}}</a></td>
-													<td><a href="/siswa/{{$siswa->id}}/{{$mapel->id}}/deletenilai" class="btn btn-danger btn-sm" onclick="return confirm('Yakin mau dihapus?')">Delete</a></td>
+													<td><a href="/siswa/{{auth()->user()->siswa->id}}/{{$mapel->id}}/deletenilai" class="btn btn-danger btn-sm" onclick="return confirm('Yakin mau dihapus?')">Delete</a></td>
 												</tr>
 												@endforeach
 											</tbody>
@@ -113,6 +113,6 @@
 
 @section('footer')
 <script>
-	
+
 </script>
 @stop
