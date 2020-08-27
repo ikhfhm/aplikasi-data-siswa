@@ -145,4 +145,9 @@ class SiswaController extends Controller
         ->rawColumns(['nama_lengkap','rata2_nilai','aksi'])
         ->toJson();
     }
+
+    public function profilsaya()
+    {
+        return view('siswa.profilsaya');
+    }
 }
