@@ -5,12 +5,13 @@
 use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(Model::class, function (Faker $faker) {
+$factory->define(\App\Siswa::class, function (Faker $faker) {
     return [
+    	'user_id' => 100,
         'nama_depan' => $faker->name,
         'nama_belakang' => '',
         'jenis_kelamin' => $faker->randomElement(['L','P']),
         'agama' => $faker->randomElement(['Islam','Kriten', 'Katolik', 'Hindu', 'Budha']),
-        'alamat' => $faker->adress,
+        'alamat' => $faker->address,
     ];
 });
