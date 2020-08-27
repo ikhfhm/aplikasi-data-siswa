@@ -1,7 +1,6 @@
 @extends('layouts.master')
 
 @section('header')
-<link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
 @stop
 @section('content')
 <div class="main">
@@ -110,46 +109,10 @@
 			<!-- END MAIN CONTENT -->
 		</div>
 
-
-		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalLabel">Tambah Nilai</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-body">
-		      <form action="/siswa/{{$siswa->id}}/addnilai" method="post" enctype="multipart/form-data">
-		        	{{csrf_field()}}
-		        	<div class="form-group">
-					    <label for="mapel">Mata Pelajaran</label>
-					    <select class="form-control" id="mapel" name="mapel">
-					    	@foreach($matapelajaran as $mp)
-					    		<option value="{{$mp->id}}">{{$mp->nama}}</option>
-					    	@endforeach
-					    </select>
-					</div>
-				  <div class="form-group{{$errors->has('nilai') ? ' has-error' : ''}}">
-				    <label for="exampleInputEmail1">Nilai</label>
-				    <input name="nilai" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nilai" value="{{old('nilai')}}">
-				    @if($errors->has('nilai'))
-				    	<span class="help-block">{{$errors->first('nilai')}}</span>
-				    @endif
-				  </div>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="submit" class="btn btn-primary">Simpan</button>
-				</form>
-		      </div>
-		    </div>
-		  </div>
-		</div>
 @stop
 
 @section('footer')
-<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script>
 		Highcharts.chart('chartNilai', {
