@@ -47,6 +47,7 @@
 											@endforeach
 										</tbody>
 									</table>
+									{{$data_siswa->links()}}
 								</div>
 							</div>
 					</div>
