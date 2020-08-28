@@ -148,6 +148,7 @@ class SiswaController extends Controller
 
     public function profilsaya()
     {
-        return view('siswa.profilsaya');
+        $siswa = auth()->user()->siswa;
+        return view('siswa.profilsaya',compact(['siswa']));
     }
 }
