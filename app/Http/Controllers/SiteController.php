@@ -51,4 +51,5 @@ class SiteController extends Controller
         $post = Post::where('slug','=',$slug)->first();
         return view('sites.singlepost',compact(['post']));
     }
+    
 }
