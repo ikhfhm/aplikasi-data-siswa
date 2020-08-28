@@ -58,7 +58,7 @@
 		      <div class="modal-body">
 		        {!!Form::open(['route' =>'siswa.import', 'class' => 'form-horizontal','enctype' => 'multipart/form-data'])!!}
 
-		        
+		        {!!Form::file('data_siswa')!!}
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
