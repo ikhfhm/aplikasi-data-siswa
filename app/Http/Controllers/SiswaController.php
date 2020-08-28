@@ -154,7 +154,8 @@ class SiswaController extends Controller
 
     public function importexcel(Request $request)
     {
-        dd($request->all());
+        Excel::import(new \App\Imports\SiswaImport,$request->file('data_siswa'));
+        // dd($request->all());
     }
 
 }
