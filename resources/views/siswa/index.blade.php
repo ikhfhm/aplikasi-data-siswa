@@ -10,7 +10,7 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Data Siswa</h3>
 									<div class="right">
-										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#importSiswa">
 										  Launch static backdrop modal
 										</button>
 
