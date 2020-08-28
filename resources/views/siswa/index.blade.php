@@ -10,9 +10,9 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Data Siswa</h3>
 									<div class="right">
-										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#importSiswa">
-										  Launch static backdrop modal
-										</button>
+										<a type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#importSiswa">
+										  Import XLS
+										</a>
 
 										<a href="/siswa/exportexcel" class="btn btn-sm btn-primary">Export Excel</a>
 
