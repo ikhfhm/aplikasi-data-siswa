@@ -60,7 +60,7 @@
 
 		        {!!Form::file('data_siswa')!!}
 		      </div>
-		      <div class="modal-footer">
+		      <div class="modal-footer"> 
 		        <input type="submit" class="btn btn-sm btn-primary" value="import">
 		    	</form>
 		      </div>
