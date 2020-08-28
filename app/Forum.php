@@ -8,11 +8,11 @@ class Forum extends Model
 {
     protected $table = 'forum';
 
-    public funtion user(){
+    public function user(){
         return $this->belongsTo(User::class);
     }
 
-    public function komentar()[
+    public function komentar(){
         return $this->hasMany(Komentar::class);
-    ]
+    }
 }

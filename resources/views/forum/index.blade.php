@@ -24,11 +24,11 @@
 											</tr>
 										</thead>
 										<tbody>
-											@foreach($posts as $post)
+											@foreach($forum as $frm)
 											<tr>
-												<td>{{$post->id}}</td>
-												<td>{{$post->title}}</td>
-												<td>{{$post->user->name}}</td>
+												<td>{{$frm->id}}</td>
+												<td>{{$frm->title}}</td>
+												<td>{{$frm->user->name}}</td>
 												<td>
 													<a target="_blank" href="{{route('site.single.post',$post->slug)}}" class="btn btn-info btn-sm">View</a>
 													<a href="#" class="btn btn-warning btn-sm">Edit</a>
