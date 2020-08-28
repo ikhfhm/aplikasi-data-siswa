@@ -38,6 +38,11 @@ class SiteController extends Controller
         $request->request->add(['user_id' => $user->id ]);
         $siswa = \App\Siswa::create($request->all());
 
+        \Mail::raw('Selamat datang '.$user->name, function ($message) use($user) {
+            $message->to($user->email, $user->name);
+            $message->subject('Selamat anda sudah terdaftar di SMA 1 Kingsarmy');
+        });
+
         return redirect('/',)->with('sukses', 'Data pendaftaran berhasil dikirim');
     }
 
