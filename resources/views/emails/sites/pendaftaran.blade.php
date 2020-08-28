@@ -1,10 +1,10 @@
 @component('mail::message')
-# Introduction
+# Pendaftaran Siswa
 
-The body of your message.
+Selamat anda telah terdaftar di SMA 1 Kingsarmy
 
-@component('mail::button', ['url' => ''])
-Button Text
+@component('mail::button', ['url' => 'http://rolloic.com'])
+Klik di sini
 @endcomponent
 
 Thanks,<br>
