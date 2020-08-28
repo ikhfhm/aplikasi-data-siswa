@@ -38,11 +38,7 @@ class SiteController extends Controller
         $request->request->add(['user_id' => $user->id ]);
         $siswa = \App\Siswa::create($request->all());
 
-        \Mail::raw('Selamat datang '.$user->name, function ($message) use($user) {
-            $message->to($user->email, $user->name);
-            $message->subject('Selamat anda sudah terdaftar di SMA 1 Kingsarmy');
-        });
-
+        \Mail::to($user->email)->send(new NotifPendaftaranSiswa);
         return redirect('/',)->with('sukses', 'Data pendaftaran berhasil dikirim');
     }
 
