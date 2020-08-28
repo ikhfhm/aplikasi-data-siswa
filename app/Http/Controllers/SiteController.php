@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\NotifPendaftaranSiswa;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use App\Post;
