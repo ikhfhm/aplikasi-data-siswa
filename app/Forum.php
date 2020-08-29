@@ -9,6 +9,7 @@ class Forum extends Model
 {
     use Sluggable;
     protected $table = 'forum';
+    protected $guarded = ['id'];
 
     /**
      * Return the sluggable configuration array for this model.

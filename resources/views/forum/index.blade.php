@@ -57,4 +57,12 @@
 			<textarea name="konten" class="form-control" id="content" rows="3">{{old('alamat')}}</textarea>
 		  </div>
 
+		  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
 @endsection
