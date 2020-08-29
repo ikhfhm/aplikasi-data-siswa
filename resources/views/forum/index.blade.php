@@ -53,8 +53,8 @@
 		  </div>
 
 		  <div class="form-group">
-			<label for="exampleFormControlTextarea1">Content</label>
-			<textarea name="content" class="form-control" id="content" rows="3">{{old('alamat')}}</textarea>
+			<label for="exampleFormControlTextarea1">Konten</label>
+			<textarea name="konten" class="form-control" id="content" rows="3">{{old('alamat')}}</textarea>
 		  </div>
 
 @endsection
