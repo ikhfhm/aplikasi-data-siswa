@@ -5,7 +5,7 @@ return [
 	'image_banner_url' => '/images/banner.bg.png',
 	'title' => 'SMA 1 Kingsarmy',
 	'welcome_message' => 'Selamat Datang di Website SMA 1 Kingsarmy',
-	'sub_welcome_message' => 'Sekolah dengan kurikulum terbaik di dunia militer',
+	'sub_welcome_message' => 'Sekolah dengan kurikulum militer terbaik',
 	'welcome_message_button_text' => 'Jelajahi',
 	'welcome_message_button_url' => '/jelajahi',
 

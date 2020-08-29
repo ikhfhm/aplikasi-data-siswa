@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('content')
-<section class="banner-area relative about-banner" id="home">	
+<section class="banner-area relative" id="home" style="background: url('{{config('sekolah.image_banner_url')}}');" id="home">	
 	<div class="overlay overlay-bg"></div>
 	<div class="container">				
 		<div class="row d-flex align-items-center justify-content-center">
