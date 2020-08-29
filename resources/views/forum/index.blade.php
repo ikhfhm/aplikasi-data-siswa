@@ -10,7 +10,7 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Forum</h3>
 									<div class="right">
-                                        <a type="button" class="btn" data-toggle="modal" data-target="#exampleModal">Tambah Forum</i></a>
+                                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Tambah Forum</i></a>
 									</div>
 								</div>
 								<div class="panel-body">
