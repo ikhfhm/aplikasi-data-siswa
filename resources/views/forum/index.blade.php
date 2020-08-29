@@ -15,12 +15,12 @@
 								</div>
 								<div class="panel-body">
                                 <ul class="list-unstyled activity-list">
-                                
+                                    @foreach($forum as $frm)
 										<li>
 											<img src="assets/img/user1.png" alt="Avatar" class="img-circle pull-left avatar">
 											<p><a href="#">Michael</a> has achieved 80% of his completed tasks <span class="timestamp">20 minutes ago</span></p>
 										</li>
-									
+									@endforeach
 									</ul>
 								</div>
 							</div>
