@@ -8,7 +8,7 @@ use App\Forum;
 class ForumController extends Controller
 {
     public function index(){
-        $forum = Forum::paginate(10);
+        $forum = Forum::orderBy('created_at','desc')->paginate(10);
         return view('forum.index',compact(['forum']));
     }
 
