@@ -11,7 +11,7 @@
 									<h3 class="panel-title">Forum</h3>
 									<div class="right">
 										<a href="{{route('posts.add')}}" class="btn btn-sm btn-primary">Tambah Forum</a>
-                                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-plus-circle"></i></button>
+                                        <a type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-plus-circle"></i></a>
 									</div>
 								</div>
 								<div class="panel-body">
