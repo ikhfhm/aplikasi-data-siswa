@@ -14,6 +14,7 @@
 				<div class="panel-body">
 					{{$forum->konten}}
                     <hr>
+                    <h3>Komentar</h3>
                     <ul class="list-unstyled activity-list">
 										<li>
 											<img src="assets/img/user1.png" alt="Avatar" class="img-circle pull-left avatar">
