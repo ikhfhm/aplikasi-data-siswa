@@ -17,4 +17,8 @@ class ForumController extends Controller
         $forum = Forum::create($request->all());
         return redirect()->back()->with('sukses', 'Forum berhasil ditambahkan');
     }
+
+    public function view(Forum $forum){
+        return view('forum.view',compact(['forum']));
+    }
 }
