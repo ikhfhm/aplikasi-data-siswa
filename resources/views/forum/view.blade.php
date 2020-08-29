@@ -8,12 +8,11 @@
 					<div class="col-md-12">
                     <div class="panel panel-headline">
 				<div class="panel-heading">
-					<h3 class="panel-title">Panel Headline</h3>
-					<p class="panel-subtitle">Panel to display most important information</p>
+					<h3 class="panel-title">{{$forum->judul}}</h3>
+					<p class="panel-subtitle">{{$forum->created_at->diffForHumans()}}</p>
 				</div>
 				<div class="panel-body">
-					<h4>Panel Content</h4>
-					<p>Objectively network visionary methodologies via best-of-breed users. Phosfluorescently initiate go forward leadership skills before an expanded array of infomediaries. Monotonectally incubate web-enabled communities rather than process-centric.</p>
+					{{$forum->konten}}
 				</div>
 			</div>
 					</div>
