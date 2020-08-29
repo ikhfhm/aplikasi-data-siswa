@@ -18,7 +18,7 @@
                                     @foreach($forum as $frm)
 										<li>
 											<img src="{{$frm->user->siswa->getAvatar()}}" alt="Avatar" class="img-circle pull-left avatar">
-											<p><a href="#">{{$frm->user->siswa->nama_depan}}: {{$frm->judul}}<span class="timestamp">20 minutes ago</span></p>
+											<p><a href="#">{{$frm->user->siswa->nama_depan}}: {{$frm->judul}}<span class="timestamp">{{$frm->created_at->diffForHumans()}}</span></p>
 										</li>
 									@endforeach
 									</ul>
