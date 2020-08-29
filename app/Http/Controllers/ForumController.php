@@ -11,4 +11,8 @@ class ForumController extends Controller
         $forum = Forum::paginate(10);
         return view('forum.index',compact(['forum']));
     }
+
+    public function create(Request $request){
+        $forum = Forum::create($request->all());
+    }
 }
