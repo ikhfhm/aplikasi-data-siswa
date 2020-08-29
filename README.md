@@ -1,25 +1,36 @@
 # Aplikasi Data Siswa
 
-Run project: `php artisan serve`
+## Things to do list:
 
-Open your browser with love: https://localhost:8000
+1. Clone this repository: `git https://github.com/ikhfhm/laravel-crud.git`
+2. Go inside the folder: `cd laravel-crud`
+3. Run `cp .env.example .env` then put your database name & credentials.
+4. Run `composer install`
+5. Run `php artisan key:generate`
+6. Run `php artisan migrate`
+7. Run `php artisan db:seed`
+8. Run `php artisan serve`
+9. Open your browser: https://localhost:8000
 
-## Home
+
+##Screenshot
+
+### Home Page
 
 ![alt text](https://github.com/ikhfhm/laravel-crud/blob/master/public/screenshot/home.png "Logo Title Text 1")
 
-## Register
+### Register
 
 ![alt text](https://github.com/ikhfhm/laravel-crud/blob/master/public/screenshot/register.png "Logo Title Text 1")
 
-## Login
+### Login
 
 ![alt text](https://github.com/ikhfhm/laravel-crud/blob/master/public/screenshot/login.png "Logo Title Text 1")
 
-## Dashboard
+### Dashboard
 
 ![alt text](https://github.com/ikhfhm/laravel-crud/blob/master/public/screenshot/dashboard.png "Logo Title Text 1")
 
-## Data Siswa
+### Data Siswa
 
 ![alt text](https://github.com/ikhfhm/laravel-crud/blob/master/public/screenshot/data-siswa.png "Logo Title Text 1")
