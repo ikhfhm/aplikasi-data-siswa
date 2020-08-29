@@ -19,7 +19,7 @@
                                     @foreach($forum as $frm)
 										<li>
 											<img src="{{$frm->user->siswa->getAvatar()}}" alt="Avatar" class="img-circle pull-left avatar">
-											<p><a href="#">{{$frm->user->siswa->nama_depan}}: {{$frm->judul}}<span class="timestamp">{{$frm->created_at->diffForHumans()}}</span></p>
+											<p><a href="#">{{$frm->user->siswa->judul}}: {{$frm->judul}}<span class="timestamp">{{$frm->created_at->diffForHumans()}}</span></p>
 										</li>
 									@endforeach
 									</ul>
@@ -36,19 +36,20 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Tambah Forum</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <form action="/siswa/create" method="post" enctype="multipart/form-data">
+        <form action="/forum/create" method="post">
         	{{csrf_field()}}
-		  <div class="form-group{{$errors->has('nama_depan') ? ' has-error' : ''}}">
-		    <label for="exampleInputEmail1">Nama Depan</label>
-		    <input name="nama_depan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Depan" value="{{old('nama_depan')}}">
-		    @if($errors->has('nama_depan'))
-		    	<span class="help-block">{{$errors->first('nama_depan')}}</span>
+
+		  <div class="form-group{{$errors->has('judul') ? ' has-error' : ''}}">
+		    <label for="exampleInputEmail1">Judul</label>
+		    <input name="judul" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Judul" value="{{old('judul')}}">
+		    @if($errors->has('judul'))
+		    	<span class="help-block">{{$errors->first('judul')}}</span>
 		    @endif
 		  </div>
 
