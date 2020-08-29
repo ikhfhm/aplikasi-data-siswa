@@ -10,7 +10,6 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Forum</h3>
 									<div class="right">
-										<a href="{{route('posts.add')}}" class="btn btn-sm btn-primary">Tambah Forum</a>
                                         <a type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><i class="lnr lnr-plus-circle">Tambah Forum</i></a>
 									</div>
 								</div>
