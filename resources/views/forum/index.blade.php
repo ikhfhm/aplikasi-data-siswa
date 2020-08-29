@@ -54,8 +54,8 @@
 		  </div>
 
 		  <div class="form-group">
-		    <label for="exampleInputEmail1">Nama Belakang</label>
-		    <input name="nama_belakang" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nama Belakang" value="{{old('nama_belakang')}}">
+			<label for="exampleFormControlTextarea1">Content</label>
+			<textarea name="content" class="form-control" id="content" rows="3">{{old('alamat')}}</textarea>
 		  </div>
 
 @endsection
