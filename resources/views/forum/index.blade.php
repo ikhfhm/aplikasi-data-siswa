@@ -10,7 +10,7 @@
 								<div class="panel-heading">
 									<h3 class="panel-title">Forum</h3>
 									<div class="right">
-										<a href="{{route('posts.add')}}" class="btn btn-sm btn-primary">Add New Post</a>
+										<a href="{{route('posts.add')}}" class="btn btn-sm btn-primary">Tambah Forum</a>
 									</div>
 								</div>
 								<div class="panel-body">
