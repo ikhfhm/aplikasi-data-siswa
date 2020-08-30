@@ -2,7 +2,7 @@
 
 ## Things to do list:
 
-1. Clone this repository: `git https://github.com/ikhfhm/laravel-crud.git`
+1. Clone this repository: `git clone https://github.com/ikhfhm/laravel-crud.git`
 2. Go inside the folder: `cd laravel-crud`
 3. Run `cp .env.example .env` then put your database name & credentials.
 4. Run `composer install`
