@@ -23,7 +23,7 @@ DB_PASSWORD=<PASSWORD>
 10. Buka browser dan akses ke alamat `https://localhost:8000`
 
 |Login aplikasi sebagai admin: |
-------------------------------
+|------------------------------|
 |email | password |
 |ikhwanfahmihidayat@gmail.com | fahmi |
 
