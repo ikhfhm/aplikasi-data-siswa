@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default navbar-fixed-top">
       <div class="brand">
-        <a href="index.html"><img src="{{asset('admin/logo-kingsarmy.png')}}" alt="Klorofil Logo" class="img-responsive logo"></a>
+        <a href="/"><img src="{{asset('admin/logo-kingsarmy.png')}}" alt="Klorofil Logo" class="img-responsive logo"></a>
       </div>
       <div class="container-fluid">
         <div class="navbar-btn">
@@ -48,7 +48,7 @@
                 class="img-circle" alt="Avatar"> <span>{{auth()->user()->name}}</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
               <ul class="dropdown-menu">
                 <li><a href="/profilsaya"><i class="lnr lnr-user"></i> <span>Profil</span></a></li>
-                <li><a href="/logout"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
+                <li><a href="/"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
               </ul>
             </li>
             <!-- <li>

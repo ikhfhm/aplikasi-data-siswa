@@ -57,6 +57,7 @@
 			        <ul class="nav-menu">
 			          <li><a href="/">Home</a></li>				          		          
 			          <li><a href="/register">Daftar</a></li>
+					  <li><a href="/login">Login</a></li>
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>

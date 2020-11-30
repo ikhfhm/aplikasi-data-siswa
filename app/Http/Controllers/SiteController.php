@@ -39,7 +39,7 @@ class SiteController extends Controller
         $request->request->add(['user_id' => $user->id ]);
         $siswa = \App\Siswa::create($request->all());
 
-        \Mail::to($user->email)->send(new NotifPendaftaranSiswa);
+        // \Mail::to($user->email)->send(new NotifPendaftaranSiswa);
         return redirect('/',)->with('sukses', 'Data pendaftaran berhasil dikirim');
     }
 
