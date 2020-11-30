@@ -22,10 +22,10 @@ DB_PASSWORD=<PASSWORD>
 9. Run `php artisan serve`
 10. Buka browser dan akses ke alamat `https://localhost:8000`
 
-|Login aplikasi sebagai admin: |
-|------------------------------|
-|email | password |
-|ikhwanfahmihidayat@gmail.com | fahmi |
+Login aplikasi sebagai admin:
+|email|password|
+|---|---|
+|ikhwanfahmihidayat@gmail.com|fahmi|
 
 
 ## Screenshot
